@@ -5,7 +5,7 @@ GitHub Readme Stats comes with several built-in themes (e.g. dark, radical, merk
 -->
 ## 🔥 Github Stats
 
-<img align="right" width="35%" src="https://i.imgur.com/sxq4xA0.gif"/>
+<img align="right" width="45%" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXY5Y2k3bm41ZmV3OWJucThldmE3bnNhYnBrNjZremxpdW9hZW9mYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jnWMCLBfJb7CK4D8iY/giphy.gif"/>
 
 <div>
   <a href="https://github.com/lucenfort"><img width="50%" src="https://github-readme-stats.vercel.app/api?username=lucenfort&theme=radical&title_color=ff3068?"></a>
