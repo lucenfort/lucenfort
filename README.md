@@ -12,7 +12,7 @@ GitHub Readme Stats comes with several built-in themes (e.g. dark, radical, merk
 </div>
 <br>
 
-![Snake animation](https://github.com/seu-usuário-aqui/seu-usuário-aqui/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/lucenfort/lucenfort/blob/output/github-contribution-grid-snake.svg)
 
 <!--
 **lucenfort/lucenfort** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
