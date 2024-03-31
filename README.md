@@ -4,10 +4,11 @@
 GitHub Readme Stats comes with several built-in themes (e.g. dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontrast, dracula).
 -->
 
-<div style="text-align: center;">
+<div align='center'>
   <a href="https://github.com/lucenfort">
-    <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api?username=lucenfort&show_icons=true&theme=cobalt&include_all_commits=true&count_private=true"/>
-  </a>
-  <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucenfort&layout=compact&langs_count=7&theme=cobalt"/>
+  <img height="190cm" src="https://github-readme-stats.vercel.app/api?username=Lucenfort&show_icons=true&theme=cobalt"/>
+  <img height="190cm" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lucenfort&layout=compact&theme=cobalt"/>  
+  <img width="808cm" src="https://github-readme-activity-graph.vercel.app/graph?username=Lucenfort&theme=cobalt&radius=16"/>
 </div>
+<!--https://badges.pages.dev/-->
 <br>
