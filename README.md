@@ -9,7 +9,7 @@ GitHub Readme Stats comes with several built-in themes (e.g. dark, radical, merk
 
 <div>
   <a href="https://github.com/lucenfort"><img width="50%" src="https://github-readme-stats.vercel.app/api?username=lucenfort&theme=radical&title_color=ff3068?"></a>
-  <img height="200cm" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lucenfort&layout=compact&theme=radical"/> 
+  <img height="220cm" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lucenfort&layout=compact&theme=radical"/> 
 </div>
 <div>
   <a href="https://github.com/lucenfort"><img width="50%" src="http://github-readme-streak-stats.herokuapp.com/?user=lucenfort&theme=cobalt&date_format=M%20j%5B%2C%20Y%5D&ring=ff3068&fire=ff3068&sideNums=ff3068"></a>
