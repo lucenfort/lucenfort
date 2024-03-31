@@ -6,11 +6,11 @@ GitHub Readme Stats comes with several built-in themes (e.g. dark, radical, merk
 
 <div style="text-align: center;">
   <a href="https://github.com/lucenfort">
-    <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucenfort&layout=compact&langs_count=7&theme=cobalt" alt="Top Programming Languages" />
+    <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api?username=lucenfort&show_icons=true&theme=cobalt&include_all_commits=true&count_private=true"/>
   </a>
-  <br>
-  <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api?username=lucenfort&show_icons=true&theme=cobalt&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucenfort&layout=compact&langs_count=7&theme=cobalt"/>
 </div>
+<br>
 
 
 <!--
