@@ -11,6 +11,7 @@ GitHub Readme Stats comes with several built-in themes (e.g. dark, radical, merk
   <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api?username=lucenfort&show_icons=true&theme=cobalt&include_all_commits=true&count_private=true"/>
 </div>
 <br>
+
 <!--
 ![Snake animation](https://github.com/lucenfort/lucenfort/blob/output/github-contribution-grid-snake.svg)
 -->
