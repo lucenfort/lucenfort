@@ -13,7 +13,7 @@ GitHub Readme Stats comes with several built-in themes (e.g. dark, radical, merk
       <p style="max-width: 100%;">Sou estudante de Engenharia da Computação na Universidade Estadual do Maranhão, apaixonado por ciência e tecnologia. Meu foco de estudo inclui Programação, Ciência de Dados, Inteligência Artificial e Robótica. Atualmente, sou monitor de Cálculo Numérico Avançado e membro do Laboratório de Simulação Numérica e Computação Científica (SIMULA). Estou empenhado em explorar novas ideias e contribuir para o avanço da pesquisa em minha área de interesse.</p>
     </td>
     <td style="vertical-align: top; width: 40%;">
-      <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXY5Y2k3bm41ZmV3OWJucThldmE3bnNhYnBrNjZremxpdW9hZW9mYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jnWMCLBfJb7CK4D8iY/giphy.gif" style="width: 2000px;">
+      <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXY5Y2k3bm41ZmV3OWJucThldmE3bnNhYnBrNjZremxpdW9hZW9mYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jnWMCLBfJb7CK4D8iY/giphy.gif" style="width: 4000px;">
     </td>
   </tr>
 </table>
