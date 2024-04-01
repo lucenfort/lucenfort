@@ -1,3 +1,7 @@
+<!--Grafico de Estatistitcas
+GitHub Readme Stats comes with several built-in themes (e.g. dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontrast, dracula).
+-->
+ 
  <img src="https://readme-typing-svg.demolab.com?font=Fantasque-sans+Mono&pause=1000&random=false&width=435&lines=Ol%C3%A1+eu+sou+o+Luciano+" style="width: 100%;">
 
 <table style="width: 100%;">
@@ -11,10 +15,6 @@
     </td>
   </tr>
 </table>
-
-
-
-
 
 ## 📈 Github Stats
 
@@ -38,14 +38,3 @@
     </td>
   </tr>
 </table>
-
-<!--
-![snake animation](https://github.com/lucenfort/lucenfort/blob/output/github-contribution-grid-snake2.svg)
--->
-
-
-
-
-<!--Grafico de Estatistitcas
-GitHub Readme Stats comes with several built-in themes (e.g. dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontrast, dracula).
--->
