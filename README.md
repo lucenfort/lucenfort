@@ -39,7 +39,9 @@
   </tr>
 </table>
 
-
+<!--
+![snake animation](https://github.com/lucenfort/lucenfort/blob/output/github-contribution-grid-snake2.svg)
+-->
 
 
 
