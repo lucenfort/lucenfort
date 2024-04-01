@@ -3,6 +3,7 @@
 <!--Grafico de Estatistitcas
 GitHub Readme Stats comes with several built-in themes (e.g. dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontrast, dracula).
 -->
+
 ## 🔥 Github Stats
 
 <img align="right" width="45%" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXY5Y2k3bm41ZmV3OWJucThldmE3bnNhYnBrNjZremxpdW9hZW9mYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jnWMCLBfJb7CK4D8iY/giphy.gif"/>
@@ -13,5 +14,5 @@ GitHub Readme Stats comes with several built-in themes (e.g. dark, radical, merk
 </div>
 <div>
   <a href="https://github.com/lucenfort"><img width="50%" src="http://github-readme-streak-stats.herokuapp.com/?user=lucenfort&theme=cobalt&date_format=M%20j%5B%2C%20Y%5D&ring=ff3068&fire=ff3068&sideNums=ff3068"></a>
-  <img width="1080cm" src="https://github-readme-activity-graph.vercel.app/graph?username=Lucenfort&theme=dracula&radius=16"/>
+  <img width="1080cm" src="https://github-readme-activity-graph.vercel.app/graph?username=Lucenfort&theme=radical&radius=16"/>
 </div>
