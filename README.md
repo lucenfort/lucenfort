@@ -6,8 +6,6 @@ GitHub Readme Stats comes with several built-in themes (e.g. dark, radical, merk
   <img src="https://readme-typing-svg.demolab.com?font=Fantasque-sans+Mono&pause=1000&random=false&width=435&lines=Ol%C3%A1+eu+sou+o+Luciano+" style="width: 100%;">
 </p>
 
-
-
 <table style="width: 100%; border: 0;">
   <tr>
     <td style="vertical-align: top; width: 60%; font-family: 'Fantasque Sans Mono', monospace; text-align: justify;">
