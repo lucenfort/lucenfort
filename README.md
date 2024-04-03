@@ -32,7 +32,7 @@ GitHub Readme Stats comes with several built-in themes (e.g. dark, radical, merk
       </span>
     </td>
     <td style="vertical-align: top; width: 60%;">
-      <span style="border: 0;"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lucenfort&layout=compact&theme=radical" style="width: 800px;">
+      <span style="border: 0;"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lucenfort&theme=radical" style="width: 800px;">
       </span>
     </td>
   </tr>
