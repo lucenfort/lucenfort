@@ -11,14 +11,14 @@
   <!-- Sobre mim -->
   <table style="width: 100%;">
     <tr>
-      <td style="width: 50%; vertical-align: top; text-align: justify; border: 0px solid cyan;">
+      <td style="width: 65%; vertical-align: top; text-align: justify; border: 0px solid cyan;">
         <h2>‍ 👨‍💻Sobre mim</h2>
         <!-- Descrição pessoal -->
         <p>Sou estudante de Engenharia da Computação na Universidade Estadual do Maranhão, apaixonado por ciência e tecnologia. Meu foco de estudo inclui Programação, Ciência de Dados, Inteligência Artificial e Robótica. Atualmente, sou monitor de Cálculo Numérico Avançado e membro do Laboratório de Simulação Numérica e Computação Científica (SIMULA). Estou empenhado em explorar novas ideias e contribuir para o avanço da pesquisa em minha área de interesse.</p>
       </td>
-      <td style="width: 50%; vertical-align: top; border: 0px solid cyan;">
+      <td style="width: 35%; vertical-align: top; border: 0px solid cyan;">
         <!-- Imagem GIF -->
-        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXY5Y2k3bm41ZmV3OWJucThldmE3bnNhYnBrNjZremxpdW9hZW9mYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jnWMCLBfJb7CK4D8iY/giphy.gif" style="width: 1000px;">
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXY5Y2k3bm41ZmV3OWJucThldmE3bnNhYnBrNjZremxpdW9hZW9mYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jnWMCLBfJb7CK4D8iY/giphy.gif" style="width: 1600px;">
       </td>
     </tr>
   </table>
