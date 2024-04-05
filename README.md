@@ -1,8 +1,5 @@
 <!-- Gráfico de Estatísticas -->
 
-<!-- Introdução -->
-<div style="text-align: center;">
-
   <!-- Texto dinâmico -->
   <img src="https://readme-typing-svg.demolab.com?font=Fantasque-sans+Mono&pause=1000&random=false&width=435&lines=Ol%C3%A1+eu+sou+o+Luciano+" style="width: 100%;">
 
@@ -54,5 +51,3 @@
       </td>
     </tr>  
   </table>
-  
-</div>
