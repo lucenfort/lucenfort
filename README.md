@@ -18,7 +18,7 @@
       </td>
       <td style="width: 35%; vertical-align: top; border: 0px solid cyan;">
         <!-- Imagem GIF -->
-        <img src="https://i.pinimg.com/originals/b0/0c/92/b00c92e2a04a1ce04e31ff53205bad4f.gif">
+        <img src="https://i.pinimg.com/originals/49/8e/01/498e01faaf88bee2ca08a0f2acf8c7e1.gif" style="width: 100%;">
       </td>
     </tr>
   </table>
