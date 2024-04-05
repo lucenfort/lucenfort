@@ -46,11 +46,11 @@
     <tr>
       <!-- Linguagens mais usadas -->
       <td style="width: 35%; vertical-align: top; border: 0px solid cyan;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucenfort&theme=radical&layout=compact" style="width: 400px;">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucenfort&theme=radical&layout=compact" style="width: 360px;">
       </td>
       <!-- Atividade do GitHub -->
       <td style="width: 65%; vertical-align: top; border: 0px solid cyan;">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucenfort&theme=redical&radius=16" style="width: 600px;">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucenfort&theme=redical&radius=16" style="width: 640px;">
       </td>
     </tr>  
   </table>
