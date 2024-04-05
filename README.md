@@ -1,5 +1,8 @@
 <!-- Gráfico de Estatísticas -->
 
+<!-- Introdução -->
+<div style="text-align: center;">
+
   <!-- Texto dinâmico -->
   <img src="https://readme-typing-svg.demolab.com?font=Fantasque-sans+Mono&pause=1000&random=false&width=435&lines=Ol%C3%A1+eu+sou+o+Luciano+" style="width: 100%;">
 
@@ -43,11 +46,12 @@
     <tr>
       <!-- Linguagens mais usadas -->
       <td style="width: 35%; vertical-align: top; border: 0px solid cyan;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucenfort&theme=radical&layout=compact" style="max-width: 100%;">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucenfort&theme=radical&layout=compact" style="width: 400px;">
       </td>
       <!-- Atividade do GitHub -->
       <td style="width: 65%; vertical-align: top; border: 0px solid cyan;">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucenfort&theme=redical&radius=16" style="max-width: 100%;">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucenfort&theme=redical&radius=16" style="width: 600px;">
       </td>
     </tr>  
   </table>
+</div>
