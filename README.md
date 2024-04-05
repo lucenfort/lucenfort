@@ -18,7 +18,7 @@
       </td>
       <td style="width: 35%; vertical-align: top; border: 0px solid cyan;">
         <!-- Imagem GIF -->
-        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXY5Y2k3bm41ZmV3OWJucThldmE3bnNhYnBrNjZremxpdW9hZW9mYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jnWMCLBfJb7CK4D8iY/giphy.gif" style="width: 1600px;">
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXY5Y2k3bm41ZmV3OWJucThldmE3bnNhYnBrNjZremxpdW9hZW9mYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jnWMCLBfJb7CK4D8iY/giphy.gif">
       </td>
     </tr>
   </table>
@@ -26,7 +26,7 @@
   <br>
 
   <!-- Estatísticas do GitHub -->
-  <h2>📈 Github Stats</h2>
+  <h2>📈 Estatísticas</h2>
   <!-- Tabela para estatísticas -->
   <table style="width: 100%;">
     <tr>
