@@ -39,13 +39,13 @@
       <!-- Estatísticas de streak (contínuas) -->
       <td style="width: 50%; vertical-align: top;">
         <a href="https://github.com/lucenfort">
-          <img src="http://github-readme-streak-stats.herokuapp.com/?user=lucenfort&theme=radical&date_format=M%20j%5B%2C%20Y%5D&ring=0099ff&fire=0099ff&sideNums=0099ff" alt="GitHub Streak Stats" style="width: 100%;">
+          <img src="http://github-readme-streak-stats.herokuapp.com/?user=lucenfort&theme=radical&date_format=M%20j%5B%2C%20Y%5D&ring=0099ff&fire=0099ff&sideNums=0099ff" alt="Estatísticas de Streak do GitHub" style="width: 100%;">
         </a>
       </td>
       <!-- Estatísticas gerais do GitHub -->
       <td style="width: 50%; vertical-align: top;">
         <a href="https://github.com/lucenfort">
-          <img src="https://github-readme-stats.vercel.app/api?username=lucenfort&show_icons=true&theme=radical&title_color=0099ff" alt="GitHub Stats" style="width: 100%;">
+          <img src="https://github-readme-stats.vercel.app/api?username=lucenfort&show_icons=true&theme=radical&title_color=0099ff&locale=pt-br" alt="Estatísticas do GitHub" style="width: 100%;">
         </a>
       </td>
     </tr>
@@ -56,11 +56,11 @@
     <tr>
       <!-- Linguagens mais usadas -->
       <td style="width: 40%; vertical-align: top;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucenfort&theme=radical&layout=compact" alt="Top Langs" style="width: 100%;">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucenfort&theme=radical&layout=donut-vertical&locale=pt-br" alt="Linguagens Mais Usadas" style="width: 100%;">
       </td>
       <!-- Atividade do GitHub -->
       <td style="width: 60%; vertical-align: top;">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucenfort&theme=redical&radius=16" alt="GitHub Activity Graph" style="width: 100%;">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucenfort&theme=redical&radius=16&locale=pt-br" alt="Gráfico de Atividade do GitHub" style="width: 100%;">
       </td>
     </tr>  
   </table>
