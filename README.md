@@ -24,7 +24,6 @@
 
   <br>
 
-
   <!-- Estatísticas do GitHub -->
   <h2>📈 Estatísticas</h2>
   <table style="width: 100%;">
@@ -49,11 +48,15 @@
     <tr>
       <!-- Linguagens mais usadas -->
       <td style="width: 40%; vertical-align: top;">
+        <a href="https://github.com/lucenfort">
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucenfort&theme=radical&layout=donut-vertical&locale=pt-br" alt="Linguagens Mais Usadas" style="width: 100%;">
+        </a>
       </td>
       <!-- Atividade do GitHub -->
       <td style="width: 60%; vertical-align: top;">
+        <a href="https://github.com/lucenfort">
         <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucenfort&theme=redical&radius=16&locale=pt-br" alt="Gráfico de Atividade do GitHub" style="width: 100%;">
+        </a>
       </td>
     </tr>  
   </table>
