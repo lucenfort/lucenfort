@@ -4,7 +4,7 @@
 <div align="center">
 
   <!-- Texto dinâmico -->
-<img src="https://readme-typing-svg.demolab.com?font=Fantasque-sans+Mono&pause=1000&color=0099ff&center=true&vCenter=true&width=435&lines=Bem-vindo+ao+meu+GitHub!;Sou+Luciano+Arruda,+engenheiro+e+pesquisador.;Apaixonado+por+tecnologia+e+inovação." alt="Typing SVG" style="width: 100%;">
+<img src="https://readme-typing-svg.demolab.com?font=Fantasque-sans+Mono&pause=1000&color=0099ff&center=true&vCenter=true&width=435&lines=Bem-vindo+ao+meu+GitHub!" alt="Typing SVG" style="width: 100%;">
 
 
   <br>
