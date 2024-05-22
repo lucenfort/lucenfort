@@ -178,4 +178,35 @@
     </tr>
   </table>
 
+  <br>
+
+  <!-- Portfólio -->
+  <h2>📂 Portfólio</h2>
+  <table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
+    <tr>
+      <td style="width: 50%; vertical-align: top;">
+        <a href="https://github.com/lucenfort/insight-hub-dsp">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucenfort&repo=projeto1&theme=radical&title_color=0099ff&locale=pt-br" alt="Projeto 1" style="width: 100%; height: auto;">
+        </a>
+      </td>
+      <td style="width: 50%; vertical-align: top;">
+        <a href="https://github.com/lucenfort/visao-computacional">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucenfort&repo=projeto2&theme=radical&title_color=0099ff&locale=pt-br" alt="Projeto 2" style="width: 100%; height: auto;">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 50%; vertical-align: top;">
+        <a href="https://github.com/lucenfort/dio-desafios-fundamentos-python">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucenfort&repo=projeto3&theme=radical&title_color=0099ff&locale=pt-br" alt="Projeto 3" style="width: 100%; height: auto;">
+        </a>
+      </td>
+      <td style="width: 50%; vertical-align: top;">
+        <a href="https://github.com/lucenfort/banco-de-dados-oficina">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucenfort&repo=projeto4&theme=radical&title_color=0099ff&locale=pt-br" alt="Projeto 4" style="width: 100%; height: auto;">
+        </a>
+      </td>
+    </tr>
+  </table>
+
 </div>
