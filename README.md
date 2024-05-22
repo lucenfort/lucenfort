@@ -4,8 +4,7 @@
 <div align="center">
 
   <!-- Texto dinâmico -->
-<img src="https://readme-typing-svg.demolab.com?font=Fantasque-sans+Mono&pause=1000&color=0099ff&center=true&vCenter=true&width=435&lines=Bem-vindo+ao+meu+GitHub!" alt="Typing SVG" style="width: 100%;">
-
+  <img src="https://readme-typing-svg.demolab.com?font=Fantasque-sans+Mono&pause=1000&color=0099ff&center=true&vCenter=true&width=435&lines=Bem-vindo+ao+meu+GitHub!" alt="Typing SVG" style="width: 100%;">
 
   <br>
 
@@ -27,40 +26,33 @@
 
   <!-- Estatísticas do GitHub -->
   <h2>📈 Estatísticas</h2>
-  <table style="width: 100%;">
+  <table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
     <tr>
-      <!-- Estatísticas de streak (contínuas) -->
-      <td style="width: 50%; vertical-align: top;">
+      <!-- Estatísticas gerais e de streak -->
+      <td style="width: 50%; vertical-align: top; border: none;">
         <a href="https://github.com/lucenfort">
-          <img src="http://github-readme-streak-stats.herokuapp.com/?user=lucenfort&theme=radical&date_format=M%20j%5B%2C%20Y%5D&ring=0099ff&fire=0099ff&sideNums=0099ff" alt="Estatísticas de Streak do GitHub" style="width: 100%;">
+          <img src="http://github-readme-streak-stats.herokuapp.com/?user=lucenfort&theme=radical&date_format=M%20j%5B%2C%20Y%5D&ring=0099ff&fire=0099ff&sideNums=0099ff" alt="Estatísticas de Streak do GitHub" style="width: 100%; height: auto;">
+        </a>
+        <br>
+        <a href="https://github.com/lucenfort">
+          <img src="https://github-readme-stats.vercel.app/api?username=lucenfort&show_icons=true&theme=radical&title_color=0099ff&locale=pt-br" alt="Estatísticas do GitHub" style="width: 100%; height: auto;">
         </a>
       </td>
-      <!-- Estatísticas gerais do GitHub -->
-      <td style="width: 50%; vertical-align: top;">
+      <!-- Linguagens mais usadas -->
+      <td style="width: 50%; vertical-align: top; border: none;">
         <a href="https://github.com/lucenfort">
-          <img src="https://github-readme-stats.vercel.app/api?username=lucenfort&show_icons=true&theme=radical&title_color=0099ff&locale=pt-br" alt="Estatísticas do GitHub" style="width: 100%;">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucenfort&theme=radical&layout=donut-vertical&locale=pt-br" alt="Linguagens Mais Usadas" style="width: 100%; height: auto;">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <!-- Atividade do GitHub -->
+      <td colspan="2" style="width: 100%; vertical-align: top; border: none;">
+        <a href="https://github.com/lucenfort">
+          <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucenfort&theme=redical&radius=16&locale=pt-br" alt="Gráfico de Atividade do GitHub" style="width: 100%; height: auto;">
         </a>
       </td>
     </tr>
   </table>
 
-<!-- Tabela para linguagens e atividade -->
-<table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
-  <tr>
-    <!-- Linguagens mais usadas -->
-    <td style="width: 40%; vertical-align: top; min-width: 200px; border: none;">
-      <a href="https://github.com/lucenfort">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucenfort&theme=radical&layout=donut-vertical&locale=pt-br" alt="Linguagens Mais Usadas" style="width: 100%; height: auto;">
-      </a>
-    </td>
-    <!-- Atividade do GitHub -->
-    <td style="width: 60%; vertical-align: top; min-width: 100px; border: none;">
-      <a href="https://github.com/lucenfort">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucenfort&theme=redical&radius=16&locale=pt-br" alt="Gráfico de Atividade do GitHub" style="width: 100%; height: auto;">
-      </a>
-    </td>
-  </tr>  
-</table>
-
-
-
+</div>
