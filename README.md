@@ -44,21 +44,23 @@
     </tr>
   </table>
 
-  <!-- Tabela para linguagens e atividade -->
-  <table style="width: 100%; table-layout: fixed;">
-    <tr>
-      <!-- Linguagens mais usadas -->
-      <td style="width: 40%; vertical-align: top; min-width: 200px;">
-        <a href="https://github.com/lucenfort">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucenfort&theme=radical&layout=donut-vertical&locale=pt-br" alt="Linguagens Mais Usadas" style="width: 100%; height: 380px;">
-        </a>
-      </td>
-      <!-- Atividade do GitHub -->
-      <td style="width: 60%; vertical-align: top; min-width: 100px;">
-        <a href="https://github.com/lucenfort">
-          <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucenfort&theme=redical&radius=16&locale=pt-br" alt="Gráfico de Atividade do GitHub" style="width: 100%; height: 320px;">
-        </a>
-      </td>
-    </tr>  
-  </table>
+<!-- Tabela para linguagens e atividade -->
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
+  <tr>
+    <!-- Linguagens mais usadas -->
+    <td style="width: 40%; vertical-align: top; min-width: 200px; border: none;">
+      <a href="https://github.com/lucenfort">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucenfort&theme=radical&layout=donut-vertical&locale=pt-br" alt="Linguagens Mais Usadas" style="width: 100%; height: auto;">
+      </a>
+    </td>
+    <!-- Atividade do GitHub -->
+    <td style="width: 60%; vertical-align: top; min-width: 100px; border: none;">
+      <a href="https://github.com/lucenfort">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucenfort&theme=redical&radius=16&locale=pt-br" alt="Gráfico de Atividade do GitHub" style="width: 100%; height: auto;">
+      </a>
+    </td>
+  </tr>  
+</table>
+
+
 
