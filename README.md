@@ -150,7 +150,7 @@
         <br>OpenCV
       </td>
       <td style="width: 20%; text-align: center;">
-        <img src="https://databricks.com/wp-content/uploads/2021/10/db-nav-logo-light.svg" alt="Databricks" width="48" height="48"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.png" alt="Databricks" width="48" height="48"/>
         <br>Databricks
       </td>
     </tr>
