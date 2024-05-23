@@ -82,103 +82,99 @@
     </tr>
   </table>
 
-  <h3>IA e Machine Learning</h3>
-  <table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
-    <tr>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://img.icons8.com/color/48/000000/tensorflow.png" alt="TensorFlow"/>
-        <br>TensorFlow
-      </td>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" alt="PyTorch" width="48" height="48"/>
-        <br>PyTorch
-      </td>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter" width="48" height="48"/>
-        <br>Jupyter
-      </td>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" alt="Keras" width="48" height="48"/>
-        <br>Keras
-      </td>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt="Matplotlib" width="48" height="48"/>
-        <br>Matplotlib
-      </td>
-    </tr>
-  </table>
+<!-- Dados e IA -->
+<h2>🧠 Dados e IA</h2>
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
+  <tr>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://img.icons8.com/color/48/000000/tensorflow.png" alt="TensorFlow"/>
+      <br>TensorFlow
+    </td>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" alt="PyTorch" width="48" height="48"/>
+      <br>PyTorch
+    </td>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter" width="48" height="48"/>
+      <br>Jupyter
+    </td>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" alt="Keras" width="48" height="48"/>
+      <br>Keras
+    </td>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt="Matplotlib" width="48" height="48"/>
+      <br>Matplotlib
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://img.icons8.com/color/48/000000/pandas.png" alt="Pandas"/>
+      <br>Pandas
+    </td>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://img.icons8.com/color/48/000000/numpy.png" alt="NumPy"/>
+      <br>NumPy
+    </td>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" alt="SQL"/>
+      <br>SQL
+    </td>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" alt="Spark" width="48" height="48"/>
+      <br>Spark
+    </td>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Hadoop_logo.svg" alt="Hadoop" width="48" height="48"/>
+      <br>Hadoop
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo.png" alt="Scikit-Learn" width="48" height="48"/>
+      <br>Scikit-Learn
+    </td>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Plotly-logo.png" alt="Plotly" width="48" height="48"/>
+      <br>Plotly
+    </td>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" alt="Google Colab" width="48" height="48"/>
+      <br>Google Colab
+    </td>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://img.icons8.com/color/48/000000/opencv.png" alt="OpenCV" width="48" height="48"/>
+      <br>OpenCV
+    </td>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.png" alt="Databricks" width="48" height="48"/>
+      <br>Databricks
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://www.gstatic.com/analytics-suite/header/suite/v2/ic_data_studio.svg" alt="Data Studio" width="48" height="48"/>
+      <br>Data Studio
+    </td>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" alt="Airflow" width="48" height="48"/>
+      <br>Airflow
+    </td>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://img.icons8.com/color/48/000000/snowflake.png" alt="Snowflake"/>
+      <br>Snowflake
+    </td>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://img.icons8.com/color/48/000000/google-cloud-platform.png" alt="Google Cloud"/>
+      <br>Google Cloud
+    </td>
+    <td style="width: 20%; text-align: center;">
+      <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS"/>
+      <br>AWS
+    </td>
+  </tr>
+</table>
 
-  <h3>Dados</h3>
-  <table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
-    <tr>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://img.icons8.com/color/48/000000/pandas.png" alt="Pandas"/>
-        <br>Pandas
-      </td>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://img.icons8.com/color/48/000000/numpy.png" alt="NumPy"/>
-        <br>NumPy
-      </td>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" alt="SQL"/>
-        <br>SQL
-      </td>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" alt="Spark" width="48" height="48"/>
-        <br>Spark
-      </td>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Hadoop_logo.svg" alt="Hadoop" width="48" height="48"/>
-        <br>Hadoop
-      </td>
-    </tr>
-    <tr>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo.png" alt="Scikit-Learn" width="48" height="48"/>
-        <br>Scikit-Learn
-      </td>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Plotly-logo.png" alt="Plotly" width="48" height="48"/>
-        <br>Plotly
-      </td>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" alt="Google Colab" width="48" height="48"/>
-        <br>Google Colab
-      </td>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://img.icons8.com/color/48/000000/opencv.png" alt="OpenCV" width="48" height="48"/>
-        <br>OpenCV
-      </td>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.png" alt="Databricks" width="48" height="48"/>
-        <br>Databricks
-      </td>
-    </tr>
-    <tr>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://www.gstatic.com/analytics-suite/header/suite/v2/ic_data_studio.svg" alt="Data Studio" width="48" height="48"/>
-        <br>Data Studio
-      </td>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" alt="Airflow" width="48" height="48"/>
-        <br>Airflow
-      </td>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://img.icons8.com/color/48/000000/snowflake.png" alt="Snowflake"/>
-        <br>Snowflake
-      </td>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://img.icons8.com/color/48/000000/google-cloud-platform.png" alt="Google Cloud"/>
-        <br>Google Cloud
-      </td>
-      <td style="width: 20%; text-align: center;">
-        <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS"/>
-        <br>AWS
-      </td>
-    </tr>
-  </table>
-
-  <br>
 
   <!-- Portfólio -->
   <h2>📂 Portfólio</h2>
