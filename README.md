@@ -14,7 +14,12 @@
   <table style="width: 100%;">
     <tr>
       <td style="width: 60%; vertical-align: top; text-align: justify;">
-        Sou estudante de Engenharia da Computação na Universidade Estadual do Maranhão, apaixonado por ciência e tecnologia. Meu foco de estudo inclui Programação, Ciência de Dados, Inteligência Artificial e Robótica. Atualmente, sou monitor de Cálculo Numérico Avançado e membro do Laboratório de Simulação Numérica e Computação Científica (SIMULA). Estou empenhado em explorar novas ideias e contribuir para o avanço da pesquisa em minha área de interesse.
+        🎓 Estudante de Engenharia da Computação com uma paixão por desenvolvimento de software, data science, inteligência artificial e computação científica. Estou sempre em busca de novos desafios e aprendizados que me permitam explorar a interseção entre tecnologia e inovação.
+
+        
+🚀 No meu repositório, você encontrará projetos que refletem meu interesse em algoritmos, análise de dados e soluções de software eficientes. Meu foco é aplicar conceitos complexos de forma prática e contribuir para o avanço da tecnologia.
+
+🌐 Conecte-se comigo e acompanhe minha jornada na construção de um futuro impulsionado pela ciência e pela tecnologia.
       </td>
       <td style="width: 40%; vertical-align: top; text-align: center;">
         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXY5Y2k3bm41ZmV3OWJucThldmE3bnNhYnBrNjZremxpdW9hZW9mYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jnWMCLBfJb7CK4D8iY/giphy.gif" width="300px" alt="GIF">
