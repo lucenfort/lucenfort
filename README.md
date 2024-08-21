@@ -13,15 +13,11 @@
 
   <table style="width: 100%;">
     <tr>
-      <td style="width: 60%; vertical-align: top; text-align: justify;">
-        🎓 Estudante de Engenharia da Computação com uma paixão por desenvolvimento de software, data science, inteligência artificial e computação científica. Estou sempre em busca de novos desafios e aprendizados que me permitam explorar a interseção entre tecnologia e inovação.
-
-        
-🚀 No meu repositório, você encontrará projetos que refletem meu interesse em algoritmos, análise de dados e soluções de software eficientes. Meu foco é aplicar conceitos complexos de forma prática e contribuir para o avanço da tecnologia.
-
-🌐 Conecte-se comigo e acompanhe minha jornada na construção de um futuro impulsionado pela ciência e pela tecnologia.
-      </td>
-      <td style="width: 40%; vertical-align: top; text-align: center;">
+        <td style="width: 60%; vertical-align: top; text-align: justify;">
+            🎓 Estudante de Engenharia da Computação com foco em desenvolvimento de software, ciência de dados, inteligência artificial e computação científica. Tenho experiência em lidar com desafios técnicos complexos e em aplicar soluções eficientes que integram tecnologia e inovação.<br><br>
+            🚀 Este repositório contém projetos que demonstram um trabalho consistente em algoritmos, análise de dados e desenvolvimento de software. Meu enfoque é na criação de soluções práticas e de alto desempenho, baseadas em fundamentos sólidos.<br><br>
+            🌐 Aberto a colaborações profissionais e a discussões técnicas que visam o desenvolvimento de soluções tecnológicas eficazes. Vamos construir juntos um futuro tecnológico sólido e inovador.<br><br>
+        <td style="width: 40%; vertical-align: top; text-align: center;">
         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXY5Y2k3bm41ZmV3OWJucThldmE3bnNhYnBrNjZremxpdW9hZW9mYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jnWMCLBfJb7CK4D8iY/giphy.gif" width="300px" alt="GIF">
       </td>
     </tr>
