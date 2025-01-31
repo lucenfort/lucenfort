@@ -7,21 +7,26 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fantasque-sans+Mono&pause=1000&color=0099ff&center=true&vCenter=true&width=435&lines=Bem-vindo+ao+meu+GitHub!" alt="Typing SVG" style="width: 100%;">
 
   <br>
-
-  <!-- Sobre mim -->
-  ## 👨‍💻 Sobre mim
-
-  <table style="width: 100%;">
-    <tr>
-        <td style="width: 60%; vertical-align: top; text-align: justify;">
-            🎓 Estudante de Engenharia da Computação com foco em desenvolvimento de software, ciência de dados, inteligência artificial e computação científica. Tenho experiência em lidar com desafios técnicos complexos e em aplicar soluções eficientes que integram tecnologia e inovação.<br><br>
-            🚀 Este repositório contém projetos que demonstram um trabalho consistente em algoritmos, análise de dados e desenvolvimento de software. Meu enfoque é na criação de soluções práticas e de alto desempenho, baseadas em fundamentos sólidos.<br><br>
-            🌐 Aberto a colaborações profissionais e a discussões técnicas que visam o desenvolvimento de soluções tecnológicas eficazes. Vamos construir juntos um futuro tecnológico sólido e inovador.<br><br>
-        <td style="width: 40%; vertical-align: top; text-align: center;">
-        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXY5Y2k3bm41ZmV3OWJucThldmE3bnNhYnBrNjZremxpdW9hZW9mYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jnWMCLBfJb7CK4D8iY/giphy.gif" width="300px" alt="GIF">
-      </td>
-    </tr>
+  
+  <!-- Sobre Mim -->
+  <h2 style="text-align: center; font-size: 28px;">👨‍💻 Sobre Mim</h2>
+  
+  <table style="width: 100%; border-collapse: collapse;">
+      <tr>
+          <td style="width: 60%; vertical-align: top; text-align: justify; font-size: 18px; line-height: 1.6;">
+              <p>🎓 <strong>Engenheiro de Computação</strong></p>
+              <p>⚙️ Interesse em <strong>IA</strong>, <strong>Visão Computacional</strong>, <strong>Engenharia de Software</strong> e <strong>Blockchain</strong>.</p>
+              <p>🚀 Experiência em <strong>aprendizado de máquina</strong>, <strong>processamento de sinais</strong> e <strong>computação de alto desempenho</strong>.</p>
+              <hr style="border: 1px solid #ccc; margin: 15px 0;">
+              <p>🌍 Explorando tecnologia para construir soluções eficientes e escaláveis.</p>
+              <p>📫 <a href="https://www.linkedin.com/in/lucenfort/" target="_blank" style="text-decoration: none; color: #0077B5; font-weight: bold;">🔗 Conecte-se no LinkedIn</a></p>
+          </td>
+          <td style="width: 40%; vertical-align: top; text-align: center;">
+              <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXY5Y2k3bm41ZmV3OWJucThldmE3bnNhYnBrNjZremxpdW9hZW9mYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jnWMCLBfJb7CK4D8iY/giphy.gif" width="280px" alt="GIF" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+          </td>
+      </tr>
   </table>
+
 
   <br>
 
