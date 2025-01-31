@@ -15,7 +15,7 @@
       <tr>
           <td style="width: 60%; vertical-align: top; text-align: justify; font-size: 18px; line-height: 1.6;">
               <p>🎓 <strong>Engenheiro de Computação</strong></p>
-              <p>⚙️ Interesse em <strong>IA</strong>, <strong>Visão Computacional</strong>, <strong>Engenharia de Software</strong> e <strong>Blockchain</strong>.</p>
+              <p>⚙️ Interesse em <strong>Ciência de Dados</strong>, <strong>Engenharia de Software</strong> e <strong>Blockchain</strong>.</p>
               <p>🚀 Experiência em <strong>aprendizado de máquina</strong>, <strong>processamento de sinais</strong> e <strong>computação de alto desempenho</strong>.</p>
               <hr style="border: 1px solid #ccc; margin: 15px 0;">
               <p>🌍 Explorando tecnologia para construir soluções eficientes e escaláveis.</p>
