@@ -18,7 +18,7 @@
               <h2 style="text-align: center; font-size: 28px;">👨‍💻 Sobre Mim</h2>
               <p>🎓 <strong>Engenheiro de Computação</strong></p>
               <p>⚙️ Interesse em <strong>Ciência de Dados</strong>, <strong>Engenharia de Software</strong> e <strong>Blockchain</strong></p>
-              <p>🚀 Experiência em <strong>aprendizado de máquina</strong>, <strong>processamento de sinais</strong> e <strong>computação de alto desempenho</strong></p>
+              <p>🚀 Experiência em <strong>Machine Learning (ML)</strong>, <strong>Digital Signal Processing (DSP)</strong> e <strong>High-Performance Computing  (HPC)</strong></p>
               <hr style="border: 1px solid #ccc; margin: 15px 0;">
               <p>🌍 Explorando tecnologia para construir soluções eficientes e escaláveis</p>
               <p>📫 <a href="https://www.linkedin.com/in/lucenfort/" target="_blank" style="text-decoration: none; color: #0077B5; font-weight: bold;">🔗 Conecte-se no LinkedIn</a></p>
