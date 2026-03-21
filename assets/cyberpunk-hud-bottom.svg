@@ -2,12 +2,13 @@
 <svg width="1200" height="120" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="g2" x1="0" x2="1">
-      <stop offset="0%" stop-color="#FF00E5"/>
-      <stop offset="50%" stop-color="#00E5FF"/>
-      <stop offset="100%" stop-color="#FFD700"/>
+      <stop offset="0%" stop-color="#00D8FF"/>
+      <stop offset="40%" stop-color="#FF00E5"/>
+      <stop offset="70%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#00E5FF"/>
     </linearGradient>
     <filter id="glow2" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feGaussianBlur stdDeviation="3" result="blur" />
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -15,16 +16,27 @@
     </filter>
   </defs>
   <rect x="0" y="0" width="1200" height="120" fill="#060A10" />
-  <path d="M20 20 H1180" stroke="#66FCF1" stroke-width="2" stroke-linecap="round" />
-  <circle cx="150" cy="92" r="7" fill="#FFD700">
-    <animate attributeName="r" values="5;11;5" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="320" cy="80" r="7" fill="#FF00E5">
-    <animate attributeName="r" values="5;11;5" dur="1.8s" repeatCount="indefinite"/>
-  </circle>
+  <path d="M20 30 H1180" stroke="#00D8FF" stroke-width="1.4"></path>
+  <path d="M20 40 H1180" stroke="#FF00E5" stroke-width="1.4" stroke-dasharray="12 8" />
+  <path d="M20 60 H1180" stroke="#FFD700" stroke-width="1" />
 
-  <rect x="50" y="95" width="320" height="12" rx="6" fill="#121A25" stroke="#FF00E5" stroke-width="1" />
-  <rect x="50" y="95" width="180" height="12" rx="6" fill="#00E5FF">
-    <animate attributeName="width" values="70;220;70" dur="2.3s" repeatCount="indefinite"/>
+  <g opacity="0.2">
+    <path d="M55 70 H500" stroke="#66FCF1" stroke-width="1" />
+    <path d="M700 70 H1145" stroke="#FF007F" stroke-width="1" />
+  </g>
+
+  <rect x="220" y="15" width="760" height="42" rx="12" fill="#0B1220" stroke="#00E5FF" stroke-width="1.2" />
+  <path d="M230 19 H1140" stroke="#FF00E5" stroke-width="2"/>
+  <path d="M230 53 H1140" stroke="#00E5FF" stroke-width="2"/>
+
+  <text x="600" y="72" text-anchor="middle" fill="url(#g2)" font-family="'Segoe UI',sans-serif" font-size="20" font-weight="800" filter="url(#glow2)"></text>
+
+  <rect x="70" y="88" width="180" height="10" rx="5" fill="#121A25" />
+  <rect x="70" y="88" width="140" height="10" rx="5" fill="#00E5FF">
+    <animate attributeName="width" values="100;140;100" dur="3.2s" repeatCount="indefinite" />
+  </rect>
+  <rect x="960" y="88" width="170" height="10" rx="5" fill="#121A25" />
+  <rect x="960" y="88" width="120" height="10" rx="5" fill="#FF00E5">
+    <animate attributeName="width" values="80;120;80" dur="2.8s" repeatCount="indefinite" />
   </rect>
 </svg>
