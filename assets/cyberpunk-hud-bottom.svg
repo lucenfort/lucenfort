@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="120" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#FF00E5"/>
+      <stop offset="50%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+    <filter id="glow2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="1200" height="120" fill="#060A10" />
+  <path d="M20 20 H1180" stroke="#66FCF1" stroke-width="2" stroke-linecap="round" />
+  <circle cx="150" cy="92" r="7" fill="#FFD700">
+    <animate attributeName="r" values="5;11;5" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="320" cy="80" r="7" fill="#FF00E5">
+    <animate attributeName="r" values="5;11;5" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="50" y="95" width="320" height="12" rx="6" fill="#121A25" stroke="#FF00E5" stroke-width="1" />
+  <rect x="50" y="95" width="180" height="12" rx="6" fill="#00E5FF">
+    <animate attributeName="width" values="70;220;70" dur="2.3s" repeatCount="indefinite"/>
+  </rect>
+</svg>

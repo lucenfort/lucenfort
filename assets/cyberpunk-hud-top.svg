@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="120" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#FF00E5"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="1200" height="120" fill="#060A10" />
+  <path d="M20 100 H1180" stroke="#FF00DD" stroke-width="2" stroke-linecap="round" />
+  <circle cx="96" cy="30" r="8" fill="#00E5FF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="212" cy="40" r="8" fill="#66FCF1">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="600" y="70" text-anchor="middle" fill="url(#g)" font-family="'Segoe UI',sans-serif" font-size="46" font-weight="bold" filter="url(#glow)">Lucenfort</text>
+  <rect x="50" y="15" width="220" height="14" rx="4" fill="#121A25" stroke="#00E5FF" stroke-width="1" />
+  <rect x="55" y="17" width="160" height="10" rx="3" fill="#66FCF1">
+    <animate attributeName="width" values="55;160;55" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="930" y="15" width="220" height="14" rx="4" fill="#121A25" stroke="#FF00E5" stroke-width="1" />
+  <rect x="935" y="17" width="80" height="10" rx="3" fill="#FF00E5">
+    <animate attributeName="width" values="80;180;80" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
