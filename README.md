@@ -51,8 +51,8 @@ Trabalho criando soluções baseadas em dados e inteligência artificial. Tenho 
 ## [=] STATUS_SISTEMA
 
 <p align="center">
-	<img src="https://github-readme-stats.vercel.app/api?username=lucenfort&show_icons=true&hide_border=true&title_color=FF003C&icon_color=FF003C&text_color=E6EDF3&bg_color=0D1117&locale=pt-br" alt="GitHub stats" />
-	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucenfort&layout=compact&hide_border=true&title_color=FF003C&text_color=E6EDF3&bg_color=0D1117&locale=pt-br&hide=html,jupyter%20notebook,lex,xbase" alt="Top languages" />
+	<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=lucenfort&show_icons=true&hide_border=true&title_color=FF003C&icon_color=FF003C&text_color=E6EDF3&bg_color=0D1117&locale=pt-br" alt="GitHub stats" />
+	<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lucenfort&layout=compact&hide_border=true&title_color=FF003C&text_color=E6EDF3&bg_color=0D1117&locale=pt-br&hide=html,jupyter%20notebook,lex,xbase" alt="Top languages" />
 </p>
 <p align="center">
 	<img src="https://streak-stats.demolab.com?user=lucenfort&hide_border=true&background=0D1117&ring=FF003C&fire=FF003C&currStreakLabel=E6EDF3&sideNums=E6EDF3&currStreakNum=E6EDF3&dates=9BA3AF&sideLabels=9BA3AF&locale=pt-br" alt="GitHub streak" />
