@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/cyberpunk-hud-top.svg" alt="Cyberpunk top HUD" width="100%" />
+  <img src="./assets/cyberpunk-hud-top.svg?v=2" alt="Cyberpunk top HUD" width="100%" />
 </p>
 
 # Luciano Arruda
@@ -72,7 +72,7 @@ Trabalho criando soluções baseadas em dados e inteligência artificial. Tenho 
 	<tr>
 		<td width="50%" valign="top">
             <a href="https://github.com/lucenfort/ppe-detection">
-                <img src="./assets/project-ppe.svg" width="100%" alt="PPE Detection" />
+                <img src="./assets/project-ppe.svg?v=2" width="100%" alt="PPE Detection" />
             </a>
 			<br>
 			<p>Pipeline robusto de detecção de Equipamentos de Proteção Individual (EPI) utilizando YOLO e RT-DETR.</p>
@@ -87,7 +87,7 @@ Trabalho criando soluções baseadas em dados e inteligência artificial. Tenho 
 		</td>
 		<td width="50%" valign="top">
             <a href="https://github.com/lucenfort/fan-audio-fault-detection">
-                <img src="./assets/project-audio.svg" width="100%" alt="Audio Fault Detection" />
+                <img src="./assets/project-audio.svg?v=2" width="100%" alt="Audio Fault Detection" />
             </a>
             <br>
 			<p>Detecção de falhas em ventiladores industriais a partir de processamento de sinais de áudio.</p>
@@ -104,7 +104,7 @@ Trabalho criando soluções baseadas em dados e inteligência artificial. Tenho 
 	<tr>
 		<td width="50%" valign="top">
             <a href="https://github.com/lucenfort/olistbr-brazilian-ecommerce">
-                <img src="./assets/project-ecommerce.svg" width="100%" alt="Ecommerce Analytics" />
+                <img src="./assets/project-ecommerce.svg?v=2" width="100%" alt="Ecommerce Analytics" />
             </a>
             <br>
 			<p>Análise de dados avançada de e-commerce com foco em insights estratégicos para o negócio.</p>
@@ -119,7 +119,7 @@ Trabalho criando soluções baseadas em dados e inteligência artificial. Tenho 
 		</td>
 		<td width="50%" valign="top">
             <a href="https://github.com/lucenfort/eda-penguins-case">
-                <img src="./assets/project-penguins.svg" width="100%" alt="EDA Penguins Case" />
+                <img src="./assets/project-penguins.svg?v=2" width="100%" alt="EDA Penguins Case" />
             </a>
             <br>
 			<p>Análise Exploratória de Dados (EDA) aprofundada sobre o dataset de pinguins de Palmer.</p>
@@ -150,5 +150,5 @@ Trabalho criando soluções baseadas em dados e inteligência artificial. Tenho 
 </p>
 
 <div align="center">
-  <img src="./assets/cyberpunk-hud-bottom.svg" alt="Cyberpunk bottom HUD" width="100%" />
+  <img src="./assets/cyberpunk-hud-bottom.svg?v=2" alt="Cyberpunk bottom HUD" width="100%" />
 </div>
