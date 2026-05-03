@@ -87,16 +87,12 @@
     </polygon>
   </g>
 
-  <!-- Main Title -->
-  <text x="600" y="105" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="900" fill="#FFFFFF" filter="url(#glowCyan)" letter-spacing="6">LUCENFORT</text>
-  <text x="600" y="105" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="900" fill="none" stroke="#00F0FF" stroke-width="1.5" letter-spacing="6">LUCENFORT</text>
-  
-  <!-- Subtitle -->
-  <text x="600" y="130" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" fill="#FF003C" font-weight="bold" letter-spacing="8" filter="url(#glowPink)">AI_ENGINEER // DATA_SCIENTIST</text>
+  <!-- Subtitle (Centered) -->
+  <text x="600" y="105" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" fill="#FF003C" font-weight="bold" letter-spacing="8" filter="url(#glowPink)">AI_ENGINEER // DATA_SCIENTIST</text>
 
   <!-- Title Bottom Line -->
-  <path d="M380,145 L400,150 L800,150 L820,145" fill="none" stroke="#00F0FF" stroke-width="2" />
-  <path d="M420,145 L780,145" fill="none" stroke="#FF003C" stroke-width="3" filter="url(#glowPink)"/>
+  <path d="M380,120 L400,125 L800,125 L820,120" fill="none" stroke="#00F0FF" stroke-width="2" />
+  <path d="M420,120 L780,120" fill="none" stroke="#FF003C" stroke-width="3" filter="url(#glowPink)"/>
 
   <!-- Scanning line overlay -->
   <line x1="0" y1="0" x2="1200" y2="0" stroke="#00F0FF" stroke-width="2" opacity="0.3">
