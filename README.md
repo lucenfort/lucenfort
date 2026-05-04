@@ -133,6 +133,25 @@ Trabalho criando soluções baseadas em dados e inteligência artificial. Tenho 
 			</details>
 		</td>
 	</tr>
+	<tr>
+		<td width="50%" valign="top">
+            <a href="https://github.com/lucenfort/quantum-teleportation">
+                <img src="./assets/project-quantum.svg?v=2" width="100%" alt="Quantum Teleportation" />
+            </a>
+            <br>
+			<p>Implementação prática do protocolo de Teletransporte Quântico usando Qiskit.</p>
+			<details>
+				<summary>Detalhes técnicos</summary>
+				<ul>
+					<li><strong>Objetivo:</strong> Demonstrar a transferência de estados quânticos entre qubits.</li>
+					<li><strong>Abordagem:</strong> Uso de emaranhamento (par de Bell) e portas lógicas quânticas.</li>
+					<li><strong>Stack principal:</strong> Python, Qiskit.</li>
+				</ul>
+			</details>
+		</td>
+		<td width="50%" valign="top">
+		</td>
+	</tr>
 </table>
 
 ## [✉] PING_CONTATO
