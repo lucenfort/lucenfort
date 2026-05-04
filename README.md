@@ -10,7 +10,7 @@
 
 **Engenheiro de IA & Cientista de Dados** | **Engenheiro de Computação**
 
-Trabalho criando soluções baseadas em dados e inteligência artificial. Tenho experiência de ponta a ponta com modelos de Machine Learning, desde a exploração inicial e treinamento até o deploy em produção aplicando práticas de MLOps. Meu objetivo é sempre alinhar a base técnica com o que o negócio realmente precisa resolver.
+Este é meu espaço para documentar projetos de Engenharia de IA, Visão Computacional e minhas notas de estudo. Aqui você vai encontrar desde implementações práticas até registros técnicos sobre algoritmos e arquitetura de software. O foco deste perfil é a prática, a experimentação e o compartilhamento de aprendizado contínuo.
 
 ## [>] SYS.NAVEGAÇÃO
 
