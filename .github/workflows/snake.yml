@@ -29,9 +29,18 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             assets/github-contribution-grid-snake.svg
-            assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#FF003C&color_dots=#0D1117,#00FFF7,#9D00FF,#FF00FF,#FCE205
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#FF003C&color_dots=#0D1117,#003344,#006688,#0099CC,#00F0FF
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Hide summary bar
+        run: |
+          sed -i 's/<rect class="u[^>]*>//g' assets/github-contribution-grid-snake.svg
+          sed -i 's/<rect class="u[^>]*>//g' assets/github-contribution-grid-snake-dark.svg
+          sed -i 's/height="192"/height="150"/g' assets/github-contribution-grid-snake.svg
+          sed -i 's/height="192"/height="150"/g' assets/github-contribution-grid-snake-dark.svg
+          sed -i 's/880 192/880 150/g' assets/github-contribution-grid-snake.svg
+          sed -i 's/880 192/880 150/g' assets/github-contribution-grid-snake-dark.svg
           
       - name: Push github-contribution-grid-snake.svg to the main branch
         uses: stefanzweifel/git-auto-commit-action@v5
