@@ -1,4 +1,28 @@
 <svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes scan {
+      0% { transform: translateY(-100px); }
+      100% { transform: translateY(100px); }
+    }
+    @keyframes flicker {
+      0% { opacity: 0.8; }
+      5% { opacity: 0.4; }
+      10% { opacity: 0.8; }
+      15% { opacity: 1; }
+      80% { opacity: 1; }
+      85% { opacity: 0.2; }
+      90% { opacity: 0.8; }
+      100% { opacity: 1; }
+    }
+    @keyframes pulse {
+      0% { opacity: 0.3; }
+      50% { opacity: 0.6; }
+      100% { opacity: 0.3; }
+    }
+    .flicker { animation: flicker 3s infinite; }
+    .scan-line { animation: scan 4s linear infinite; opacity: 0.2; }
+    .pulse { animation: pulse 2s ease-in-out infinite; }
+  </style>
   <defs>
     <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
       <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#00F0FF" stroke-width="0.5" stroke-opacity="0.1" />
@@ -11,10 +35,13 @@
   <rect width="400" height="100" fill="#0D1117" />
   <rect width="400" height="100" fill="url(#grid)" />
   
-  <polygon points="0,0 20,0 30,10 30,100 0,100" fill="#00F0FF" opacity="0.8" />
-  <polygon points="400,100 380,100 370,90 370,0 400,0" fill="#FF003C" opacity="0.8" />
+  <!-- Scanning Line -->
+  <rect width="400" height="2" fill="#00F0FF" class="scan-line" />
   
-  <rect x="15" y="15" width="370" height="70" fill="none" stroke="#00F0FF" stroke-width="1" opacity="0.3" />
+  <polygon points="0,0 20,0 30,10 30,100 0,100" fill="#00F0FF" opacity="0.8" class="flicker" />
+  <polygon points="400,100 380,100 370,90 370,0 400,0" fill="#FF003C" opacity="0.8" class="flicker" />
+  
+  <rect x="15" y="15" width="370" height="70" fill="none" stroke="#00F0FF" stroke-width="1" class="pulse" />
   <polygon points="15,15 30,15 30,2 15,2" fill="#00F0FF" />
   
   <g stroke="#FCE205" stroke-width="2" fill="none" transform="translate(40, 30)">
@@ -22,9 +49,9 @@
     <polyline points="30,0 40,0 40,10" />
     <polyline points="10,40 0,40 0,30" />
     <polyline points="30,40 40,40 40,30" />
-    <rect x="8" y="8" width="24" height="24" stroke="#FF003C" filter="url(#glowPink)" />
+    <rect x="8" y="8" width="24" height="24" stroke="#FF003C" filter="url(#glowPink)" class="flicker" />
   </g>
 
-  <text x="100" y="45" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#FFFFFF" letter-spacing="1">PPE_DETECTION</text>
+  <text x="100" y="45" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#FFFFFF" letter-spacing="1" class="flicker">PPE_DETECTION</text>
   <text x="100" y="65" font-family="'Courier New', monospace" font-size="10" fill="#00F0FF">VISÃO COMPUTACIONAL // YOLO</text>
 </svg>

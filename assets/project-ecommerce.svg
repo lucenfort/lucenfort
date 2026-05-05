@@ -1,4 +1,36 @@
 <svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes scan {
+      0% { transform: translateY(-100px); }
+      100% { transform: translateY(100px); }
+    }
+    @keyframes flicker {
+      0% { opacity: 0.8; }
+      5% { opacity: 0.4; }
+      10% { opacity: 0.8; }
+      15% { opacity: 1; }
+      80% { opacity: 1; }
+      85% { opacity: 0.2; }
+      90% { opacity: 0.8; }
+      100% { opacity: 1; }
+    }
+    @keyframes pulse {
+      0% { opacity: 0.3; }
+      50% { opacity: 0.6; }
+      100% { opacity: 0.3; }
+    }
+    @keyframes dataPoint {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.5); }
+    }
+    .flicker { animation: flicker 3s infinite; }
+    .scan-line { animation: scan 4s linear infinite; opacity: 0.2; }
+    .pulse { animation: pulse 2s ease-in-out infinite; }
+    .point { animation: dataPoint 2s ease-in-out infinite; transform-origin: center; }
+    .point:nth-child(2) { animation-delay: 0.5s; }
+    .point:nth-child(3) { animation-delay: 1s; }
+    .point:nth-child(4) { animation-delay: 1.5s; }
+  </style>
   <defs>
     <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
       <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#FF003C" stroke-width="0.5" stroke-opacity="0.1" />
@@ -11,19 +43,21 @@
   <rect width="400" height="100" fill="#0D1117" />
   <rect width="400" height="100" fill="url(#grid)" />
   
-  <polygon points="0,0 20,0 30,10 30,100 0,100" fill="#FF003C" opacity="0.8" />
-  <polygon points="400,100 380,100 370,90 370,0 400,0" fill="#FCE205" opacity="0.8" />
+  <rect width="400" height="2" fill="#FF003C" class="scan-line" />
   
-  <rect x="15" y="15" width="370" height="70" fill="none" stroke="#FF003C" stroke-width="1" opacity="0.3" />
+  <polygon points="0,0 20,0 30,10 30,100 0,100" fill="#FF003C" opacity="0.8" class="flicker" />
+  <polygon points="400,100 380,100 370,90 370,0 400,0" fill="#FCE205" opacity="0.8" class="flicker" />
+  
+  <rect x="15" y="15" width="370" height="70" fill="none" stroke="#FF003C" stroke-width="1" class="pulse" />
   
   <g fill="none" stroke="#FCE205" stroke-width="3" filter="url(#glowYellow)" transform="translate(45, 30)">
-    <polyline points="0,35 12,20 24,28 38,5" />
-    <circle cx="0" cy="35" r="3" fill="#FF003C" stroke="none" />
-    <circle cx="12" cy="20" r="3" fill="#FF003C" stroke="none" />
-    <circle cx="24" cy="28" r="3" fill="#FF003C" stroke="none" />
-    <circle cx="38" cy="5" r="3" fill="#FF003C" stroke="none" />
+    <polyline points="0,35 12,20 24,28 38,5" stroke-dasharray="100" stroke-dashoffset="0" />
+    <circle cx="0" cy="35" r="3" fill="#FF003C" stroke="none" class="point" />
+    <circle cx="12" cy="20" r="3" fill="#FF003C" stroke="none" class="point" />
+    <circle cx="24" cy="28" r="3" fill="#FF003C" stroke="none" class="point" />
+    <circle cx="38" cy="5" r="3" fill="#FF003C" stroke="none" class="point" />
   </g>
 
-  <text x="100" y="45" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#FFFFFF" letter-spacing="1">E-COMMERCE_ANALYTICS</text>
+  <text x="100" y="45" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#FFFFFF" letter-spacing="1" class="flicker">E-COMMERCE_ANALYTICS</text>
   <text x="100" y="65" font-family="'Courier New', monospace" font-size="10" fill="#FF003C">BIG DATA // SQL // INSIGHTS</text>
 </svg>
