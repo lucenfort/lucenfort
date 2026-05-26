@@ -19,9 +19,9 @@ Este é meu espaço para documentar projetos de Engenharia de IA, Visão Computa
 
 ## [~] SYS.FOCO_ATUAL
 
-- **Engenharia de IA & Visão Computacional:** Treinamento, otimização e inferência de modelos de Deep Learning para ambientes industriais e restritos (Edge/Hardware constraint).
-- **Ciência de Dados:** Análise exploratória e geração de insights para apoiar diretamente a tomada de decisão.
-- **MLOps & Engenharia de Software:** Arquitetura de pipelines escaláveis, reprodutibilidade, CI/CD e monitoramento contínuo de modelos em produção.
+- **Engenharia de IA:** Deep Learning & Visão Computacional.
+- **Ciência de Dados:** Análise de Dados & Modelagem Preditiva.
+- **Engenharia de Software & MLOps:** Pipelines Escaláveis & CI/CD.
 
 ## [@] STACK_TECNOLÓGICA
 
@@ -68,23 +68,27 @@ Este é meu espaço para documentar projetos de Engenharia de IA, Visão Computa
 
 ## [*] PROJETOS_DESTAQUE
 
+<!--
+	Projetos Inativos/Comentados:
+	<td width="50%" valign="top">
+		<a href="https://github.com/lucenfort/ppe-detection">
+			<img src="./assets/project-ppe.svg?v=2" width="100%" alt="PPE Detection" />
+		</a>
+		<br>
+		<p>Pipeline robusto de detecção de Equipamentos de Proteção Individual (EPI) utilizando YOLO e RT-DETR.</p>
+		<details>
+			<summary>Detalhes técnicos</summary>
+			<ul>
+				<li><strong>Objetivo:</strong> Monitoramento automatizado em ambientes industriais.</li>
+				<li><strong>Abordagem:</strong> Arquitetura modular e validação multi-modelos.</li>
+				<li><strong>Stack principal:</strong> Python, YOLO, OpenCV.</li>
+			</ul>
+		</details>
+	</td>
+-->
+
 <table>
 	<tr>
-		<td width="50%" valign="top">
-            <a href="https://github.com/lucenfort/ppe-detection">
-                <img src="./assets/project-ppe.svg?v=2" width="100%" alt="PPE Detection" />
-            </a>
-			<br>
-			<p>Pipeline robusto de detecção de Equipamentos de Proteção Individual (EPI) utilizando YOLO e RT-DETR.</p>
-			<details>
-				<summary>Detalhes técnicos</summary>
-				<ul>
-					<li><strong>Objetivo:</strong> Monitoramento automatizado em ambientes industriais.</li>
-					<li><strong>Abordagem:</strong> Arquitetura modular e validação multi-modelos.</li>
-					<li><strong>Stack principal:</strong> Python, YOLO, OpenCV.</li>
-				</ul>
-			</details>
-		</td>
 		<td width="50%" valign="top">
             <a href="https://github.com/lucenfort/fan-audio-fault-detection">
                 <img src="./assets/project-audio.svg?v=2" width="100%" alt="Audio Fault Detection" />
@@ -100,8 +104,6 @@ Este é meu espaço para documentar projetos de Engenharia de IA, Visão Computa
 				</ul>
 			</details>
 		</td>
-	</tr>
-	<tr>
 		<td width="50%" valign="top">
             <a href="https://github.com/lucenfort/olistbr-brazilian-ecommerce">
                 <img src="./assets/project-ecommerce.svg?v=2" width="100%" alt="Ecommerce Analytics" />
@@ -117,6 +119,8 @@ Este é meu espaço para documentar projetos de Engenharia de IA, Visão Computa
 				</ul>
 			</details>
 		</td>
+	</tr>
+	<tr>
 		<td width="50%" valign="top">
             <a href="https://github.com/lucenfort/eda-penguins-case">
                 <img src="./assets/project-penguins.svg?v=2" width="100%" alt="EDA Penguins Case" />
@@ -132,8 +136,6 @@ Este é meu espaço para documentar projetos de Engenharia de IA, Visão Computa
 				</ul>
 			</details>
 		</td>
-	</tr>
-	<tr>
 		<td width="50%" valign="top">
             <a href="https://github.com/lucenfort/quantum-teleportation">
                 <img src="./assets/project-quantum.svg?v=2" width="100%" alt="Quantum Teleportation" />
@@ -149,16 +151,14 @@ Este é meu espaço para documentar projetos de Engenharia de IA, Visão Computa
 				</ul>
 			</details>
 		</td>
-		<td width="50%" valign="top">
-		</td>
 	</tr>
 </table>
 
-## [✉] PING_CONTATO
+## [&] PING_CONTATO
 
 <p align="left">
 	<a href="mailto:lucenfort@gmail.com">
-		<img src="https://img.shields.io/badge/Email-lucenfort%40gmail.com-FFD700?style=for-the-badge&logo=gmail&logoColor=0B0B0B&labelColor=0B0B0B" alt="Email" />
+		<img src="https://img.shields.io/badge/Email-lucen4t%40gmail.com-FFD700?style=for-the-badge&logo=gmail&logoColor=0B0B0B&labelColor=0B0B0B" alt="Email" />
 	</a>
 	<a href="https://linkedin.com/in/lucenfort">
 		<img src="https://img.shields.io/badge/LinkedIn-lucenfort-00FFF7?style=for-the-badge&logo=linkedin&logoColor=0B0B0B&labelColor=0B0B0B" alt="LinkedIn" />
