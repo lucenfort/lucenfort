@@ -5,7 +5,7 @@
 # Luciano Arruda
 
 <p align="left">
-	<img src="https://komarev.com/ghpvc/?username=lucenfort&style=for-the-badge&color=FF003C&label=PROFILE+VIEWS" alt="Profile views" />
+	<img src="https://komarev.com/ghpvc/?username=lucenfort&style=for-the-badge&color=00F0FF&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
 **Dados & IA** | **Engenheiro de Computação**
@@ -59,11 +59,11 @@ Este é meu espaço para documentar projetos em Dados, Inteligência Artificial 
 ## [=] STATUS_SISTEMA
 
 <p align="center">
-	<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=lucenfort&show_icons=true&hide_border=true&title_color=FF003C&icon_color=FF003C&text_color=E6EDF3&bg_color=0D1117&locale=pt-br&v=1" alt="GitHub stats" />
-	<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lucenfort&layout=compact&hide_border=true&title_color=FF003C&text_color=E6EDF3&bg_color=0D1117&locale=pt-br&hide=html,jupyter%20notebook,lex,xbase&v=1" alt="Top languages" />
+	<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=lucenfort&show_icons=true&hide_border=true&title_color=00F0FF&icon_color=00F0FF&text_color=E6EDF3&bg_color=080D18&locale=pt-br&v=3" alt="GitHub stats" />
+	<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lucenfort&layout=compact&hide_border=true&title_color=00F0FF&text_color=E6EDF3&bg_color=080D18&locale=pt-br&hide=html,jupyter%20notebook,lex,xbase&v=3" alt="Top languages" />
 </p>
 <p align="center">
-	<img src="https://streak-stats.demolab.com?user=lucenfort&hide_border=true&background=0D1117&ring=FF003C&fire=FF003C&currStreakLabel=E6EDF3&sideNums=E6EDF3&currStreakNum=E6EDF3&dates=9BA3AF&sideLabels=9BA3AF&locale=pt-br&v=1" alt="GitHub streak" />
+	<img src="https://streak-stats.demolab.com?user=lucenfort&hide_border=true&background=080D18&ring=00F0FF&fire=FF007F&currStreakLabel=00F0FF&stroke=7000FF&sideNums=E6EDF3&currStreakNum=FFFFFF&dates=8F9BBA&sideLabels=8F9BBA&locale=pt-br&v=3" alt="GitHub streak" />
 </p>
 
 <p align="center">
