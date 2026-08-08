@@ -59,18 +59,18 @@ Este é meu espaço para documentar projetos em Dados, Inteligência Artificial 
 ## [=] STATUS_SISTEMA
 
 <p align="center">
-	<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=lucenfort&show_icons=true&hide_border=true&title_color=FF003C&icon_color=FF003C&text_color=E6EDF3&bg_color=0D1117&locale=pt-br" alt="GitHub stats" />
-	<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lucenfort&layout=compact&hide_border=true&title_color=FF003C&text_color=E6EDF3&bg_color=0D1117&locale=pt-br&hide=html,jupyter%20notebook,lex,xbase" alt="Top languages" />
+	<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=lucenfort&show_icons=true&hide_border=true&title_color=FF003C&icon_color=FF003C&text_color=E6EDF3&bg_color=0D1117&locale=pt-br&v=1" alt="GitHub stats" />
+	<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lucenfort&layout=compact&hide_border=true&title_color=FF003C&text_color=E6EDF3&bg_color=0D1117&locale=pt-br&hide=html,jupyter%20notebook,lex,xbase&v=1" alt="Top languages" />
 </p>
 <p align="center">
-	<img src="https://streak-stats.demolab.com?user=lucenfort&hide_border=true&background=0D1117&ring=FF003C&fire=FF003C&currStreakLabel=E6EDF3&sideNums=E6EDF3&currStreakNum=E6EDF3&dates=9BA3AF&sideLabels=9BA3AF&locale=pt-br" alt="GitHub streak" />
+	<img src="https://streak-stats.demolab.com?user=lucenfort&hide_border=true&background=0D1117&ring=FF003C&fire=FF003C&currStreakLabel=E6EDF3&sideNums=E6EDF3&currStreakNum=E6EDF3&dates=9BA3AF&sideLabels=9BA3AF&locale=pt-br&v=1" alt="GitHub streak" />
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="./assets/github-contribution-grid-snake-dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="assets/github-contribution-grid-snake-dark.svg" width="100%">
   </picture>
 </p>
 
