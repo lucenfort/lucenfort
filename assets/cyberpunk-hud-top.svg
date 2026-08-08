@@ -1,115 +1,158 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1200" height="150" viewBox="0 0 1200 150" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Deep Futuristic Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#03060F" />
+      <stop offset="50%" stop-color="#0A101D" />
+      <stop offset="100%" stop-color="#03050C" />
+    </linearGradient>
+
+    <linearGradient id="neonGradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00F0FF" />
-      <stop offset="100%" stop-color="#0080FF" />
-    </linearGradient>
-    <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF003C" />
-      <stop offset="100%" stop-color="#C2002E" />
-    </linearGradient>
-    <linearGradient id="neonYellow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FCE205" />
-      <stop offset="100%" stop-color="#FFB300" />
+      <stop offset="40%" stop-color="#7000FF" />
+      <stop offset="70%" stop-color="#FF007F" />
+      <stop offset="100%" stop-color="#00FF9D" />
     </linearGradient>
 
-    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    <linearGradient id="glassFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D1627" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#060B14" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glowCyan" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur1" />
+      <feGaussianBlur stdDeviation="10" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
     </filter>
-    <filter id="glowPink" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
+
+    <filter id="glowPink" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
 
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00F0FF" stroke-width="1" stroke-opacity="0.08" />
+    <!-- Subtle Grid Pattern -->
+    <pattern id="techGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00F0FF" stroke-width="0.8" stroke-opacity="0.05" />
+      <circle cx="30" cy="0" r="1" fill="#00F0FF" fill-opacity="0.12" />
     </pattern>
+
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.6; filter: drop-shadow(0 0 14px rgba(0, 240, 255, 0.4)); }
+        50% { opacity: 1; filter: drop-shadow(0 0 28px rgba(255, 0, 127, 0.6)); }
+      }
+      @keyframes spinReticle {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes blinkPulse {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.3; transform: scale(0.85); }
+      }
+      @keyframes waveBar {
+        0%, 100% { height: 6px; }
+        50% { height: 18px; }
+      }
+      .title-animated { animation: pulseGlow 5s ease-in-out infinite; }
+      .reticle-spin { animation: spinReticle 15s linear infinite; transform-origin: center; }
+      .reticle-spin-rev { animation: spinReticle 20s linear infinite reverse; transform-origin: center; }
+      .blink { animation: blinkPulse 2s ease-in-out infinite; }
+      .eq-bar1 { animation: waveBar 1.2s ease-in-out infinite; }
+      .eq-bar2 { animation: waveBar 0.9s ease-in-out infinite 0.3s; }
+      .eq-bar3 { animation: waveBar 1.5s ease-in-out infinite 0.6s; }
+    </style>
   </defs>
 
-  <!-- Background Grid -->
-  <rect width="1200" height="150" fill="url(#grid)" />
+  <!-- Base Canvas Background -->
+  <rect width="1200" height="180" rx="10" fill="url(#bgGrad)" />
+  <rect width="1200" height="180" rx="10" fill="url(#techGrid)" />
 
-  <!-- Top Main Frame Bar -->
-  <!-- Left Side -->
-  <polygon points="0,0 450,0 480,20 10,20 0,10" fill="#00F0FF" opacity="0.9" />
-  <polygon points="10,25 470,25 490,40 20,40" fill="#FF003C" opacity="0.9" />
-  <polygon points="15,45 200,45 210,55 20,55" fill="#FCE205" opacity="0.8" />
-  
-  <!-- Right Side -->
-  <polygon points="1200,0 750,0 720,20 1190,20 1200,10" fill="#00F0FF" opacity="0.9" />
-  <polygon points="1190,25 730,25 710,40 1180,40" fill="#FCE205" opacity="0.9" />
-  <polygon points="1185,45 1000,45 990,55 1180,55" fill="#FF003C" opacity="0.8" />
+  <!-- Ambient Light Orbs -->
+  <circle cx="600" cy="40" r="220" fill="#00F0FF" opacity="0.05" filter="url(#glowCyan)" />
+  <circle cx="600" cy="110" r="180" fill="#7000FF" opacity="0.06" filter="url(#glowPink)" />
+  <circle cx="200" cy="90" r="120" fill="#00FF9D" opacity="0.03" filter="url(#glowCyan)" />
+  <circle cx="1000" cy="90" r="120" fill="#FF007F" opacity="0.04" filter="url(#glowPink)" />
 
-  <!-- Center Frame -->
-  <path d="M490,20 L510,40 L690,40 L710,20 Z" fill="#0D1117" stroke="#00F0FF" stroke-width="2" filter="url(#glowCyan)"/>
+  <!-- Outer Precision Framing Lines & Chamfers -->
+  <path d="M 40,2 L 320,2 L 350,22 L 850,22 L 880,2 L 1160,2" fill="none" stroke="url(#neonGradient)" stroke-width="2" opacity="0.9" filter="url(#glowCyan)" />
+  <path d="M 2,40 L 25,40 L 42,58 L 42,122 L 25,140 L 2,140" fill="none" stroke="#00F0FF" stroke-width="1.5" opacity="0.5" />
+  <path d="M 1198,40 L 1175,40 L 1158,58 L 1158,122 L 1175,140 L 1198,140" fill="none" stroke="#FF007F" stroke-width="1.5" opacity="0.5" />
 
-  <!-- Technical Texts on Frames -->
-  <text x="30" y="14" font-family="'Courier New', monospace" font-size="11" fill="#0D1117" font-weight="bold">SYS.INIT // CORE_OVERRIDE_ENABLED</text>
-  <text x="1170" y="14" font-family="'Courier New', monospace" font-size="11" fill="#0D1117" font-weight="bold" text-anchor="end">STATUS: OPTIMAL // UPLINK_ACTIVE</text>
-  
-  <text x="40" y="36" font-family="'Courier New', monospace" font-size="11" fill="#FFFFFF" font-weight="bold">SEC_LEVEL_09</text>
-  <text x="1160" y="36" font-family="'Courier New', monospace" font-size="11" fill="#0D1117" font-weight="bold" text-anchor="end">AUTH_VALID</text>
-
-  <!-- Animated Data Stream (Bars) -->
-  <g opacity="0.8">
-    <rect x="50" y="70" width="6" height="15" fill="#00F0FF"><animate attributeName="height" values="5;20;5" dur="0.8s" repeatCount="indefinite"/></rect>
-    <rect x="62" y="70" width="6" height="25" fill="#00F0FF"><animate attributeName="height" values="25;10;25" dur="1.2s" repeatCount="indefinite"/></rect>
-    <rect x="74" y="70" width="6" height="10" fill="#00F0FF"><animate attributeName="height" values="10;30;10" dur="0.6s" repeatCount="indefinite"/></rect>
-    <rect x="86" y="70" width="6" height="18" fill="#FF003C"><animate attributeName="height" values="18;5;18" dur="1.0s" repeatCount="indefinite"/></rect>
-    <rect x="98" y="70" width="6" height="22" fill="#FCE205"><animate attributeName="height" values="8;22;8" dur="1.4s" repeatCount="indefinite"/></rect>
-  </g>
-
-  <!-- Decorative Crosshairs and Targets -->
-  <g stroke="#00F0FF" stroke-width="1.5" opacity="0.7">
-    <circle cx="180" cy="100" r="25" fill="none" />
-    <path d="M180 65 L180 135 M145 100 L215 100" />
-    <circle cx="180" cy="100" r="12" fill="none" stroke="#FF003C" stroke-dasharray="3 5" stroke-width="2">
-      <animateTransform attributeName="transform" type="rotate" from="0 180 100" to="360 180 100" dur="6s" repeatCount="indefinite" />
-    </circle>
-  </g>
-
-  <!-- Hexadecimal Tech text -->
-  <text x="240" y="85" font-family="'Courier New', monospace" font-size="13" fill="#00F0FF" opacity="0.8">0x7F2A_MEM</text>
-  <text x="240" y="105" font-family="'Courier New', monospace" font-size="13" fill="#FF003C" opacity="0.8">0x8B3C_SYS</text>
-  <text x="240" y="125" font-family="'Courier New', monospace" font-size="13" fill="#FCE205" opacity="0.8">0x9D4E_NET</text>
-
-  <text x="960" y="85" font-family="'Courier New', monospace" font-size="13" fill="#00F0FF" opacity="0.8" text-anchor="end">SYS.MEM: 64TB</text>
-  <text x="960" y="105" font-family="'Courier New', monospace" font-size="13" fill="#FF003C" opacity="0.8" text-anchor="end">GPU_UTIL: 99%</text>
-  <text x="960" y="125" font-family="'Courier New', monospace" font-size="13" fill="#00F0FF" opacity="0.8" text-anchor="end">VRAM_ALLOC: 24GB</text>
-
-  <!-- Right Decorative Element -->
-  <g stroke="#FCE205" stroke-width="1.5" opacity="0.8">
-    <polygon points="1040,80 1060,70 1080,80 1080,100 1060,110 1040,100" fill="none" filter="url(#glowPink)"/>
-    <polygon points="1045,83 1057,77 1075,83 1075,97 1057,103 1045,97" fill="none" stroke="#00F0FF" stroke-dasharray="4 4" stroke-width="2">
-       <animateTransform attributeName="transform" type="rotate" from="360 1060 90" to="0 1060 90" dur="8s" repeatCount="indefinite" />
-    </polygon>
-  </g>
-
-  <!-- Main Title (Hacker / Holographic Glitch Effect) -->
-  <g>
-    <!-- Tech Prefix -->
-    <text x="600" y="65" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" fill="#FCE205" font-weight="bold" letter-spacing="4">SYS.USR_</text>
-
-    <!-- Chromatic Aberration Layers -->
-    <text x="597" y="105" text-anchor="middle" font-family="'Courier New', monospace" font-size="48" font-weight="900" fill="none" stroke="#FF003C" stroke-width="2" letter-spacing="12" opacity="0.8">LUCENFORT</text>
-    <text x="603" y="105" text-anchor="middle" font-family="'Courier New', monospace" font-size="48" font-weight="900" fill="none" stroke="#00F0FF" stroke-width="2" letter-spacing="12" opacity="0.8">LUCENFORT</text>
+  <!-- Left Tech Panel: DATA & AI -->
+  <g transform="translate(55, 45)">
+    <rect x="0" y="0" width="240" height="85" rx="8" fill="url(#glassFill)" stroke="#00F0FF" stroke-opacity="0.3" stroke-width="1" />
+    <path d="M 0,0 L 18,0 L 0,18 Z" fill="#00F0FF" opacity="0.9" />
     
-    <!-- Core Text -->
-    <text x="600" y="105" text-anchor="middle" font-family="'Courier New', monospace" font-size="48" font-weight="900" fill="#FFFFFF" letter-spacing="12" filter="url(#glowCyan)">LUCENFORT</text>
+    <!-- Rotating Tech Node Graphic -->
+    <g transform="translate(30, 42)">
+      <circle cx="0" cy="0" r="16" fill="none" stroke="#00F0FF" stroke-width="1" stroke-dasharray="6 4" class="reticle-spin" />
+      <circle cx="0" cy="0" r="10" fill="none" stroke="#7000FF" stroke-width="1.2" stroke-dasharray="4 2" class="reticle-spin-rev" />
+      <circle cx="0" cy="0" r="3" fill="#00FF9D" class="blink" />
+    </g>
+
+    <!-- Signal Spectrum Bars -->
+    <g fill="#00F0FF" transform="translate(58, 33)">
+      <rect x="0" y="5" width="3" height="10" rx="1.5" class="eq-bar1" />
+      <rect x="6" y="2" width="3" height="16" rx="1.5" class="eq-bar2" />
+      <rect x="12" y="8" width="3" height="8" rx="1.5" class="eq-bar3" />
+      <rect x="18" y="0" width="3" height="20" rx="1.5" fill="#00FF9D" class="eq-bar1" />
+    </g>
+
+    <text x="85" y="32" font-family="'JetBrains Mono', monospace" font-size="11" fill="#00FF9D" font-weight="700" letter-spacing="1">STATUS: ONLINE</text>
+    <text x="85" y="47" font-family="'JetBrains Mono', monospace" font-size="9" fill="#8A99AD" letter-spacing="0.5">MACHINE LEARNING</text>
+    <text x="20" y="70" font-family="'JetBrains Mono', monospace" font-size="9" fill="#00F0FF" opacity="0.9">DATA PIPELINES &amp; ANALYTICS</text>
   </g>
-  
-  <!-- Subtitle (Centered) -->
-  <text x="600" y="135" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" fill="#FF003C" font-weight="bold" letter-spacing="8" filter="url(#glowPink)">AI_ENGINEER // DATA_SCIENTIST</text>
 
-  <!-- Title Bottom Line -->
-  <path d="M380,145 L400,150 L800,150 L820,145" fill="none" stroke="#00F0FF" stroke-width="2" />
-  <path d="M420,148 L780,148" fill="none" stroke="#FF003C" stroke-width="3" filter="url(#glowPink)"/>
+  <!-- Right Tech Panel: COMPUTER ENGINEERING -->
+  <g transform="translate(905, 45)">
+    <rect x="0" y="0" width="240" height="85" rx="8" fill="url(#glassFill)" stroke="#7000FF" stroke-opacity="0.35" stroke-width="1" />
+    <path d="M 240,0 L 222,0 L 240,18 Z" fill="#FF007F" opacity="0.9" />
 
-  <!-- Scanning line overlay -->
-  <line x1="0" y1="0" x2="1200" y2="0" stroke="#00F0FF" stroke-width="2" opacity="0.3">
-    <animate attributeName="y1" values="0;150;0" dur="5s" repeatCount="indefinite" />
-    <animate attributeName="y2" values="0;150;0" dur="5s" repeatCount="indefinite" />
-  </line>
+    <!-- Circular Gauge Graphic -->
+    <g transform="translate(30, 42)">
+      <circle cx="0" cy="0" r="16" fill="none" stroke="#FF007F" stroke-width="1.2" stroke-dasharray="8 4" class="reticle-spin" />
+      <circle cx="0" cy="0" r="8" fill="none" stroke="#00F0FF" stroke-width="1" />
+      <circle cx="0" cy="0" r="3" fill="#7000FF" />
+    </g>
+
+    <text x="58" y="32" font-family="'JetBrains Mono', monospace" font-size="11" fill="#00F0FF" font-weight="700" letter-spacing="1">ARCH.COMP_ENG</text>
+    <text x="58" y="47" font-family="'JetBrains Mono', monospace" font-size="9" fill="#8A99AD" letter-spacing="0.5">SOFTWARE ARCHITECTURE</text>
+    <text x="20" y="70" font-family="'JetBrains Mono', monospace" font-size="9" fill="#FF007F" opacity="0.9">MLOPS &amp; CI/CD PIPELINES</text>
+  </g>
+
+  <!-- Central Title & Cyberpunk Badge Block -->
+  <g class="title-animated">
+    <!-- Top Micro Tagline -->
+    <g transform="translate(600, 42)">
+      <rect x="-160" y="-12" width="320" height="20" rx="10" fill="#09101F" fill-opacity="0.8" stroke="#00F0FF" stroke-opacity="0.3" stroke-width="1" />
+      <text x="0" y="2" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#00F0FF" font-weight="700" letter-spacing="3">✦ HIGH-PERFORMANCE DATA &amp; AI ✦</text>
+    </g>
+
+    <!-- Main Title: LUCENFORT -->
+    <!-- Background Hologram Shadow -->
+    <text x="598" y="98" text-anchor="middle" font-family="system-ui, -apple-system, 'Inter', sans-serif" font-size="48" font-weight="900" fill="#FF007F" letter-spacing="16" opacity="0.3" filter="url(#glowPink)">LUCENFORT</text>
+    <text x="602" y="98" text-anchor="middle" font-family="system-ui, -apple-system, 'Inter', sans-serif" font-size="48" font-weight="900" fill="#00F0FF" letter-spacing="16" opacity="0.3" filter="url(#glowCyan)">LUCENFORT</text>
+    
+    <!-- Primary Crisp Text -->
+    <text x="600" y="98" text-anchor="middle" font-family="system-ui, -apple-system, 'Inter', sans-serif" font-size="48" font-weight="900" fill="#FFFFFF" letter-spacing="16">LUCENFORT</text>
+
+    <!-- Subtitle Capsule -->
+    <g transform="translate(600, 138)">
+      <rect x="-150" y="-14" width="300" height="28" rx="14" fill="#0B1324" fill-opacity="0.9" stroke="url(#neonGradient)" stroke-width="1.2" filter="url(#glowCyan)" />
+      <circle cx="-130" cy="0" r="4" fill="#00FF9D" class="blink" />
+      <text x="0" y="4" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" fill="#FFFFFF" font-weight="700" letter-spacing="4">COMPUTER ENGINEER</text>
+      <circle cx="130" cy="0" r="4" fill="#00F0FF" class="blink" />
+    </g>
+  </g>
+
+  <!-- Bottom Tech Connector Edge Lines -->
+  <path d="M 80,178 L 1120,178" stroke="url(#neonGradient)" stroke-width="2" filter="url(#glowCyan)" />
+  <circle cx="600" cy="178" r="5" fill="#00F0FF" filter="url(#glowCyan)" />
+  <circle cx="300" cy="178" r="3.5" fill="#7000FF" />
+  <circle cx="900" cy="178" r="3.5" fill="#FF007F" />
 </svg>

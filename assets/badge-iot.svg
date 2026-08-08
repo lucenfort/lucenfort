@@ -1,0 +1,11 @@
+<svg width="150" height="36" viewBox="0 0 150 36" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1828" />
+      <stop offset="100%" stop-color="#040912" />
+    </linearGradient>
+  </defs>
+  <rect width="150" height="36" rx="6" fill="url(#bg)" stroke="#00979D" stroke-width="1.2" stroke-opacity="0.8" />
+  <circle cx="16" cy="18" r="4" fill="#00FF9D" />
+  <text x="30" y="22" font-family="'JetBrains Mono', monospace" font-size="11" fill="#FFFFFF" font-weight="700">IoT &amp; Hardware</text>
+</svg>

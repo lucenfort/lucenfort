@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/cyberpunk-hud-top.svg?v=2" alt="Cyberpunk top HUD" width="100%" />
+  <img src="./assets/cyberpunk-hud-top.svg?v=8" alt="Cyberpunk top HUD" width="100%" />
 </p>
 
 # Luciano Arruda
@@ -8,9 +8,9 @@
 	<img src="https://komarev.com/ghpvc/?username=lucenfort&style=for-the-badge&color=FF003C&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
-**Engenheiro de IA & Cientista de Dados** | **Engenheiro de Computação**
+**Dados & IA** | **Engenheiro de Computação**
 
-Este é meu espaço para documentar projetos de Engenharia de IA, Visão Computacional e minhas notas de estudo. Aqui você vai encontrar desde implementações práticas até registros técnicos sobre algoritmos e arquitetura de software. O foco deste perfil é a prática, a experimentação e o compartilhamento de aprendizado contínuo.
+Este é meu espaço para documentar projetos em Dados, Inteligência Artificial e Arquitetura de Software. Aqui você vai encontrar desde pipelines de dados e modelos preditivos até soluções completas de Engenharia de Computação. O foco deste perfil é a prática, a experimentação e o compartilhamento de aprendizado contínuo.
 
 ## [>] SYS.NAVEGAÇÃO
 
@@ -19,33 +19,41 @@ Este é meu espaço para documentar projetos de Engenharia de IA, Visão Computa
 
 ## [~] SYS.FOCO_ATUAL
 
-- **Engenharia de IA:** Deep Learning & Visão Computacional.
-- **Ciência de Dados:** Análise de Dados & Modelagem Preditiva.
-- **Engenharia de Software & MLOps:** Pipelines Escaláveis & CI/CD.
+- **Dados & Analytics:** Engenharia de Dados, ETL/ELT & Análise Preditiva.
+- **Inteligência Artificial:** Machine Learning, Deep Learning & Engenharia de IA.
+- **Engenharia de Computação:** Arquitetura de Software, MLOps & Sistemas Escaláveis.
 
 ## [@] STACK_TECNOLÓGICA
 
-**Linguagens & Big Data** <br>
+**Engenharia de IA & GenAI / LLMs**
 <p align="left">
-	<img src="https://img.shields.io/badge/Python-FFD700?style=for-the-badge&logo=python&logoColor=111111&labelColor=0B0B0B" alt="Python" />
-	<img src="https://img.shields.io/badge/SQL-FFD700?style=for-the-badge&logo=postgresql&logoColor=111111&labelColor=0B0B0B" alt="SQL" />
-	<img src="https://img.shields.io/badge/Spark-00FFF7?style=for-the-badge&logo=apachespark&logoColor=111111&labelColor=0B0B0B" alt="Spark" />
+  <img src="./assets/badge-langchain.svg" alt="LangChain / RAG" height="34" />
+  <img src="./assets/badge-huggingface.svg" alt="Hugging Face" height="34" />
+  <img src="./assets/badge-pytorch.svg" alt="PyTorch" height="34" />
+  <img src="./assets/badge-tensorflow.svg" alt="TensorFlow" height="34" />
+  <img src="./assets/badge-opencv.svg" alt="OpenCV" height="34" />
 </p>
 
-**Machine Learning & Deep Learning** <br>
+**Ciência de Dados & Machine Learning**
 <p align="left">
-	<img src="https://img.shields.io/badge/PyTorch-00FFF7?style=for-the-badge&logo=pytorch&logoColor=111111&labelColor=0B0B0B" alt="PyTorch" />
-	<img src="https://img.shields.io/badge/TensorFlow-FF00FF?style=for-the-badge&logo=tensorflow&logoColor=111111&labelColor=0B0B0B" alt="TensorFlow" />
-	<img src="https://img.shields.io/badge/Scikit_Learn-9F00FF?style=for-the-badge&logo=scikit-learn&logoColor=111111&labelColor=0B0B0B" alt="Scikit-Learn" />
+  <img src="./assets/badge-python.svg" alt="Python" height="34" />
+  <img src="./assets/badge-sql.svg" alt="SQL" height="34" />
+  <img src="./assets/badge-pandas.svg" alt="Pandas" height="34" />
+  <img src="./assets/badge-numpy.svg" alt="NumPy" height="34" />
+  <img src="./assets/badge-sklearn.svg" alt="Scikit-Learn" height="34" />
+  <img src="./assets/badge-xgboost.svg" alt="XGBoost" height="34" />
+  <img src="./assets/badge-spark.svg" alt="Apache Spark" height="34" />
 </p>
 
-**DevOps, MLOps & Arquitetura** <br>
+**DevOps, MLOps & Arquitetura de Software**
 <p align="left">
-	<img src="https://img.shields.io/badge/Docker-00D8FF?style=for-the-badge&logo=docker&logoColor=111111&labelColor=0B0B0B" alt="Docker" />
-	<img src="https://img.shields.io/badge/Kubernetes-9F00FF?style=for-the-badge&logo=kubernetes&logoColor=111111&labelColor=0B0B0B" alt="Kubernetes" />
-	<img src="https://img.shields.io/badge/CI%2FCD-FF00FF?style=for-the-badge&logo=githubactions&logoColor=111111&labelColor=0B0B0B" alt="CI/CD" />
-	<img src="https://img.shields.io/badge/MLOps-00D8FF?style=for-the-badge&logo=mlflow&logoColor=111111&labelColor=0B0B0B" alt="MLOps" />
-	<img src="https://img.shields.io/badge/IoT-9F00FF?style=for-the-badge&logo=arduino&logoColor=111111&labelColor=0B0B0B" alt="IoT" />
+  <img src="./assets/badge-fastapi.svg" alt="FastAPI" height="34" />
+  <img src="./assets/badge-docker.svg" alt="Docker" height="34" />
+  <img src="./assets/badge-kubernetes.svg" alt="Kubernetes" height="34" />
+  <img src="./assets/badge-git.svg" alt="Git" height="34" />
+  <img src="./assets/badge-cicd.svg" alt="CI/CD" height="34" />
+  <img src="./assets/badge-mlops.svg" alt="MLOps" height="34" />
+  <img src="./assets/badge-iot.svg" alt="IoT & Hardware" height="34" />
 </p>
 
 ## [=] STATUS_SISTEMA
@@ -91,7 +99,7 @@ Este é meu espaço para documentar projetos de Engenharia de IA, Visão Computa
 	<tr>
 		<td width="50%" valign="top">
             <a href="https://github.com/lucenfort/fan-audio-fault-detection">
-                <img src="./assets/project-audio.svg?v=2" width="100%" alt="Audio Fault Detection" />
+                <img src="./assets/project-audio.svg?v=5" width="100%" alt="Audio Fault Detection" />
             </a>
             <br>
 			<p>Detecção de falhas em ventiladores industriais a partir de processamento de sinais de áudio.</p>
@@ -106,7 +114,7 @@ Este é meu espaço para documentar projetos de Engenharia de IA, Visão Computa
 		</td>
 		<td width="50%" valign="top">
             <a href="https://github.com/lucenfort/olistbr-brazilian-ecommerce">
-                <img src="./assets/project-ecommerce.svg?v=2" width="100%" alt="Ecommerce Analytics" />
+                <img src="./assets/project-ecommerce.svg?v=5" width="100%" alt="Ecommerce Analytics" />
             </a>
             <br>
 			<p>Análise de dados avançada de e-commerce com foco em insights estratégicos para o negócio.</p>
@@ -123,7 +131,7 @@ Este é meu espaço para documentar projetos de Engenharia de IA, Visão Computa
 	<tr>
 		<td width="50%" valign="top">
             <a href="https://github.com/lucenfort/eda-penguins-case">
-                <img src="./assets/project-penguins.svg?v=2" width="100%" alt="EDA Penguins Case" />
+                <img src="./assets/project-penguins.svg?v=5" width="100%" alt="EDA Penguins Case" />
             </a>
             <br>
 			<p>Análise Exploratória de Dados (EDA) aprofundada sobre o dataset de pinguins de Palmer.</p>
@@ -138,7 +146,7 @@ Este é meu espaço para documentar projetos de Engenharia de IA, Visão Computa
 		</td>
 		<td width="50%" valign="top">
             <a href="https://github.com/lucenfort/quantum-teleportation">
-                <img src="./assets/project-quantum.svg?v=2" width="100%" alt="Quantum Teleportation" />
+                <img src="./assets/project-quantum.svg?v=5" width="100%" alt="Quantum Teleportation" />
             </a>
             <br>
 			<p>Implementação prática do protocolo de Teletransporte Quântico usando Qiskit.</p>
@@ -169,5 +177,5 @@ Este é meu espaço para documentar projetos de Engenharia de IA, Visão Computa
 </p>
 
 <div align="center">
-  <img src="./assets/cyberpunk-hud-bottom.svg?v=2" alt="Cyberpunk bottom HUD" width="100%" />
+  <img src="./assets/cyberpunk-hud-bottom.svg?v=5" alt="Cyberpunk bottom HUD" width="100%" />
 </div>

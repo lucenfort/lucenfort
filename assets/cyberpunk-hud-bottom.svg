@@ -1,79 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg width="1200" height="120" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-    <filter id="glowPink" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+    <!-- Modern Gradient Palette -->
+    <linearGradient id="bgGradBottom" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050810" />
+      <stop offset="50%" stop-color="#0C1220" />
+      <stop offset="100%" stop-color="#070A12" />
+    </linearGradient>
+
+    <linearGradient id="neonCyanViolet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="50%" stop-color="#7000FF" />
+      <stop offset="100%" stop-color="#FF007F" />
+    </linearGradient>
+
+    <filter id="glowCyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
 
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00F0FF" stroke-width="1" stroke-opacity="0.08" />
+    <filter id="glowMagenta" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#00F0FF" fill-opacity="0.07" />
     </pattern>
+
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
+      @keyframes fillProgress {
+        0% { width: 10px; }
+        50% { width: 230px; }
+        100% { width: 10px; }
+      }
+      @keyframes dataStream {
+        0% { opacity: 0.3; }
+        50% { opacity: 1; }
+        100% { opacity: 0.3; }
+      }
+      .pulse { animation: pulseGlow 3s ease-in-out infinite; }
+      .bar-anim { animation: fillProgress 6s ease-in-out infinite; }
+      .stream { animation: dataStream 1.5s infinite; }
+    </style>
   </defs>
 
-  <!-- Background Grid -->
-  <rect width="1200" height="120" fill="url(#grid)" />
+  <!-- Base Canvas & Grid -->
+  <rect width="1200" height="120" fill="url(#bgGradBottom)" rx="8" />
+  <rect width="1200" height="120" fill="url(#dotGrid)" rx="8" />
 
-  <!-- Bottom Main Frame Bar (Mirrored) -->
-  <polygon points="0,120 450,120 480,100 10,100 0,110" fill="#00F0FF" opacity="0.9" />
-  <polygon points="10,95 470,95 490,80 20,80" fill="#FF003C" opacity="0.9" />
-  <polygon points="15,75 200,75 210,65 20,65" fill="#FCE205" opacity="0.8" />
-  
-  <polygon points="1200,120 750,120 720,100 1190,100 1200,110" fill="#00F0FF" opacity="0.9" />
-  <polygon points="1190,95 730,95 710,80 1180,80" fill="#FCE205" opacity="0.9" />
-  <polygon points="1185,75 1000,75 990,65 1180,65" fill="#FF003C" opacity="0.8" />
+  <!-- Ambient Glow -->
+  <circle cx="600" cy="60" r="160" fill="#00F0FF" opacity="0.03" filter="url(#glowCyan)" />
 
-  <!-- Central Element -->
-  <path d="M490,100 L510,80 L690,80 L710,100 Z" fill="#0D1117" stroke="#FF003C" stroke-width="2" filter="url(#glowPink)"/>
-  <text x="600" y="94" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#FFFFFF" font-weight="bold" letter-spacing="2">CONNECTION ESTABLISHED</text>
+  <!-- Top Accent Edge Line -->
+  <path d="M 100,1 L 1100,1" stroke="url(#neonCyanViolet)" stroke-width="2" filter="url(#glowCyan)" />
+  <circle cx="600" cy="1" r="4" fill="#7000FF" filter="url(#glowMagenta)" />
 
-  <!-- Tech Texts -->
-  <text x="30" y="114" font-family="'Courier New', monospace" font-size="11" fill="#0D1117" font-weight="bold">NET_PROTOCOL_V7</text>
-  <text x="1170" y="114" font-family="'Courier New', monospace" font-size="11" fill="#0D1117" font-weight="bold" text-anchor="end">ENCRYPTION: AES-256-GCM</text>
+  <!-- Outer Tech Framing -->
+  <path d="M 0,35 L 25,35 L 40,20 L 320,20 L 340,35 L 860,35 L 880,20 L 1160,20 L 1175,35 L 1200,35" fill="none" stroke="url(#neonCyanViolet)" stroke-width="1" opacity="0.6" />
 
-  <!-- Loading Bar Section -->
-  <g transform="translate(100, 20)">
-    <text x="0" y="0" font-family="'Courier New', monospace" font-size="12" fill="#00F0FF" font-weight="bold">MODEL_TRAINING_PROGRESS</text>
-    <rect x="0" y="10" width="300" height="12" fill="#0D1117" stroke="#00F0FF" stroke-width="1.5" />
-    <rect x="3" y="13" width="250" height="6" fill="#FF003C" filter="url(#glowPink)">
-      <animate attributeName="width" values="0;294;294;0" dur="6s" repeatCount="indefinite" />
-    </rect>
+  <!-- Left Telemetry Box -->
+  <g transform="translate(50, 45)">
+    <rect x="0" y="0" width="260" height="50" rx="6" fill="#0B1220" fill-opacity="0.6" stroke="#00F0FF" stroke-opacity="0.25" stroke-width="1" />
+    <text x="15" y="20" font-family="'JetBrains Mono', monospace" font-size="10" fill="#00F0FF" font-weight="700" letter-spacing="1">DATA_PIPELINE // THROUGHPUT</text>
+    <rect x="15" y="28" width="230" height="8" rx="4" fill="#070D18" stroke="#00F0FF" stroke-opacity="0.2" stroke-width="1" />
+    <rect x="15" y="28" width="180" height="8" rx="4" fill="url(#neonCyanViolet)" class="bar-anim" filter="url(#glowCyan)" />
   </g>
 
-  <!-- Data Flow Visualization -->
-  <g transform="translate(800, 20)">
-    <text x="300" y="0" font-family="'Courier New', monospace" font-size="12" fill="#FCE205" font-weight="bold" text-anchor="end">DATA_PIPELINE_THROUGHPUT</text>
-    <rect x="0" y="10" width="300" height="12" fill="#0D1117" stroke="#FCE205" stroke-width="1.5" />
-    <!-- Segmented progress -->
-    <g fill="#00F0FF">
-      <rect x="3" y="13" width="25" height="6" />
-      <rect x="33" y="13" width="25" height="6" />
-      <rect x="63" y="13" width="25" height="6" />
-      <rect x="93" y="13" width="25" height="6" />
-      <rect x="123" y="13" width="25" height="6" />
-      <rect x="153" y="13" width="25" height="6" />
-      <rect x="183" y="13" width="25" height="6" />
-      <rect x="213" y="13" width="25" height="6" />
-      <rect x="243" y="13" width="25" height="6">
-        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
-      </rect>
-      <rect x="273" y="13" width="21" height="6">
-        <animate attributeName="opacity" values="0;1;0" dur="0.8s" repeatCount="indefinite" />
-      </rect>
-    </g>
+  <!-- Center Status Block -->
+  <g transform="translate(420, 45)">
+    <rect x="0" y="0" width="360" height="50" rx="6" fill="#0B1220" fill-opacity="0.7" stroke="url(#neonCyanViolet)" stroke-width="1" />
+    <circle cx="20" cy="25" r="4" fill="#00FF9D" class="pulse" />
+    <text x="34" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#00FF9D" font-weight="700" letter-spacing="1">CONNECTION ESTABLISHED</text>
+    <text x="34" y="38" font-family="'JetBrains Mono', monospace" font-size="9" fill="#8A99AD" letter-spacing="0.5">DATA &amp; AI // COMPUTER ENGINEERING</text>
   </g>
 
-  <!-- Circuit Traces -->
-  <g fill="none" stroke="#00F0FF" stroke-width="2" opacity="0.6">
-    <path d="M 450,20 L 480,20 L 510,50 L 690,50 L 720,20 L 750,20" />
-    <circle cx="450" cy="20" r="4" fill="#00F0FF" filter="url(#glow)"/>
-    <circle cx="750" cy="20" r="4" fill="#00F0FF" filter="url(#glow)"/>
-    <circle cx="600" cy="50" r="6" fill="#FF003C" filter="url(#glowPink)">
-        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
-    </circle>
+  <!-- Right Telemetry Box -->
+  <g transform="translate(890, 45)">
+    <rect x="0" y="0" width="260" height="50" rx="6" fill="#0B1220" fill-opacity="0.6" stroke="#7000FF" stroke-opacity="0.3" stroke-width="1" />
+    <text x="15" y="20" font-family="'JetBrains Mono', monospace" font-size="10" fill="#7000FF" font-weight="700" letter-spacing="1">SYSTEM_HEALTH // MLOps CI/CD</text>
+    <text x="15" y="38" font-family="'JetBrains Mono', monospace" font-size="11" fill="#FFFFFF" font-weight="700" letter-spacing="1">100% OPTIMAL</text>
+    <circle cx="230" cy="25" r="5" fill="#00F0FF" class="stream" filter="url(#glowCyan)" />
   </g>
+
+  <!-- Bottom Edge Chamfers -->
+  <path d="M 30,120 L 350,120 L 380,105 L 820,105 L 850,120 L 1170,120" fill="none" stroke="url(#neonCyanViolet)" stroke-width="1.5" opacity="0.6" />
 </svg>

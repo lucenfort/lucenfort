@@ -1,64 +1,45 @@
 <svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @keyframes scan {
-      0% { transform: translateY(-100px); }
-      100% { transform: translateY(100px); }
-    }
-    @keyframes flicker {
-      0% { opacity: 0.8; }
-      5% { opacity: 0.4; }
-      10% { opacity: 0.8; }
-      15% { opacity: 1; }
-      80% { opacity: 1; }
-      85% { opacity: 0.2; }
-      90% { opacity: 0.8; }
-      100% { opacity: 1; }
-    }
-    @keyframes pulse {
-      0% { opacity: 0.3; }
-      50% { opacity: 0.6; }
-      100% { opacity: 0.3; }
-    }
-    @keyframes wave {
-      0%, 100% { transform: scaleY(1); }
-      50% { transform: scaleY(1.8); }
-    }
-    .flicker { animation: flicker 3s infinite; }
-    .scan-line { animation: scan 4s linear infinite; opacity: 0.2; }
-    .pulse { animation: pulse 2s ease-in-out infinite; }
-    .wave-bar { animation: wave 1s ease-in-out infinite; transform-origin: 50% 50%; }
-    .wave-bar:nth-child(2) { animation-delay: 0.2s; }
-    .wave-bar:nth-child(3) { animation-delay: 0.4s; }
-    .wave-bar:nth-child(4) { animation-delay: 0.1s; }
-    .wave-bar:nth-child(5) { animation-delay: 0.3s; }
-  </style>
   <defs>
-    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#FCE205" stroke-width="0.5" stroke-opacity="0.1" />
-    </pattern>
-    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+    <linearGradient id="bgAudio" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080D18" />
+      <stop offset="100%" stop-color="#0E1626" />
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#7000FF" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
+    <style>
+      @keyframes eq1 { 0%, 100% { height: 12px; y: 24px; } 50% { height: 32px; y: 14px; } }
+      @keyframes eq2 { 0%, 100% { height: 28px; y: 16px; } 50% { height: 10px; y: 25px; } }
+      @keyframes eq3 { 0%, 100% { height: 18px; y: 21px; } 50% { height: 36px; y: 12px; } }
+      @keyframes eq4 { 0%, 100% { height: 34px; y: 13px; } 50% { height: 14px; y: 23px; } }
+      .bar1 { animation: eq1 1.2s ease-in-out infinite; }
+      .bar2 { animation: eq2 0.9s ease-in-out infinite; }
+      .bar3 { animation: eq3 1.4s ease-in-out infinite; }
+      .bar4 { animation: eq4 1.1s ease-in-out infinite; }
+    </style>
   </defs>
-  <rect width="400" height="100" fill="#0D1117" />
-  <rect width="400" height="100" fill="url(#grid)" />
-  
-  <rect width="400" height="2" fill="#FCE205" class="scan-line" />
-  
-  <polygon points="0,0 20,0 30,10 30,100 0,100" fill="#FCE205" opacity="0.8" class="flicker" />
-  <polygon points="400,100 380,100 370,90 370,0 400,0" fill="#00F0FF" opacity="0.8" class="flicker" />
-  
-  <rect x="15" y="15" width="370" height="70" fill="none" stroke="#FCE205" stroke-width="1" class="pulse" />
-  
-  <g fill="#00F0FF" filter="url(#glowCyan)" transform="translate(45, 30)">
-    <rect x="0" y="15" width="4" height="10" class="wave-bar" />
-    <rect x="8" y="5" width="4" height="30" class="wave-bar" />
-    <rect x="16" y="10" width="4" height="20" class="wave-bar" />
-    <rect x="24" y="0" width="4" height="40" class="wave-bar" />
-    <rect x="32" y="12" width="4" height="16" class="wave-bar" />
+
+  <rect width="400" height="100" rx="8" fill="url(#bgAudio)" stroke="url(#neonCyan)" stroke-width="1.2" stroke-opacity="0.8" />
+
+  <!-- Glass HUD Border Accent -->
+  <path d="M 0,0 L 20,0 L 0,20 Z" fill="#00F0FF" opacity="0.8" />
+  <path d="M 400,100 L 380,100 L 400,80 Z" fill="#7000FF" opacity="0.8" />
+
+  <!-- Animated Frequency Analyzer Icon -->
+  <g fill="#00F0FF" filter="url(#glow)" transform="translate(30, 25)">
+    <rect x="0" y="24" width="4" height="12" rx="2" class="bar1" />
+    <rect x="8" y="16" width="4" height="28" rx="2" class="bar2" />
+    <rect x="16" y="21" width="4" height="18" rx="2" fill="#7000FF" class="bar3" />
+    <rect x="24" y="13" width="4" height="34" rx="2" class="bar4" />
+    <rect x="32" y="20" width="4" height="20" rx="2" class="bar1" />
   </g>
 
-  <text x="100" y="45" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#FFFFFF" letter-spacing="1" class="flicker">AUDIO_FAULT_DETECT</text>
-  <text x="100" y="65" font-family="'Courier New', monospace" font-size="10" fill="#FCE205">SINAIS ACÚSTICOS // ML</text>
+  <!-- Title & Subtitle -->
+  <text x="90" y="44" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF" letter-spacing="1">DETECÇÃO DE FALHAS EM ÁUDIO</text>
+  <text x="90" y="64" font-family="'JetBrains Mono', monospace" font-size="10" fill="#00F0FF" letter-spacing="0.5">SINAIS ACÚSTICOS // MACHINE LEARNING</text>
 </svg>
