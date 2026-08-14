@@ -58,12 +58,15 @@ Este é meu espaço para documentar projetos em Dados, Inteligência Artificial 
 
 ## [=] STATUS_SISTEMA
 
+<!-- Cards do github-readme-stats comentados temporariamente devido a erro de rate limit da API
 <p align="center">
-	<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=lucenfort&show_icons=true&hide_border=true&title_color=00F0FF&icon_color=00F0FF&text_color=E6EDF3&bg_color=080D18&locale=pt-br&v=3" alt="GitHub stats" />
-	<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lucenfort&layout=compact&hide_border=true&title_color=00F0FF&text_color=E6EDF3&bg_color=080D18&locale=pt-br&hide=html,jupyter%20notebook,lex,xbase&v=3" alt="Top languages" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=lucenfort&show_icons=true&hide_border=true&title_color=00F0FF&icon_color=00F0FF&text_color=E6EDF3&bg_color=080D18&locale=pt-br&v=3" alt="GitHub stats" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lucenfort&layout=compact&hide_border=true&title_color=00F0FF&text_color=E6EDF3&bg_color=080D18&locale=pt-br&hide=html,jupyter%20notebook,lex,xbase&v=3" alt="Top languages" />
 </p>
+-->
+
 <p align="center">
-	<img src="https://streak-stats.demolab.com?user=lucenfort&hide_border=true&background=080D18&ring=00F0FF&fire=FF007F&currStreakLabel=00F0FF&stroke=7000FF&sideNums=E6EDF3&currStreakNum=FFFFFF&dates=8F9BBA&sideLabels=8F9BBA&locale=pt-br&v=3" alt="GitHub streak" />
+    <img src="https://streak-stats.demolab.com?user=lucenfort&hide_border=true&background=080D18&ring=00F0FF&fire=FF007F&currStreakLabel=00F0FF&stroke=7000FF&sideNums=E6EDF3&currStreakNum=FFFFFF&dates=8F9BBA&sideLabels=8F9BBA&locale=pt-br&v=3" alt="GitHub streak" />
 </p>
 
 <p align="center">
