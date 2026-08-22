@@ -8,9 +8,9 @@
   <img src="https://komarev.com/ghpvc/?username=lucenfort&style=for-the-badge&color=00F0FF&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
-**Engenharia de IA & Ciência de Dados** • **Engenharia de Dados & Software**
+**Dados & IA**
 
-Engenheiro de Computação focado na concepção e implantação de modelos de Inteligência Artificial e soluções analíticas de Ciência de Dados, sustentados por pipelines de Engenharia de Dados resilientes e arquitetura de software escalável de alta performance.
+Engenheiro de Computação especialista em AI Engineering.
 
 ---
 
