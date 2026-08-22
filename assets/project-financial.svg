@@ -1,0 +1,43 @@
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgFinancial" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1614" />
+      <stop offset="100%" stop-color="#060C0A" />
+    </linearGradient>
+    <linearGradient id="neonGoldGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF9D" />
+      <stop offset="100%" stop-color="#FFD700" />
+    </linearGradient>
+    <filter id="glowGold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <style>
+      @keyframes barPulse1 { 0%, 100% { height: 14px; y: 46px; } 50% { height: 28px; y: 32px; } }
+      @keyframes barPulse2 { 0%, 100% { height: 26px; y: 34px; } 50% { height: 12px; y: 48px; } }
+      @keyframes barPulse3 { 0%, 100% { height: 36px; y: 24px; } 50% { height: 20px; y: 40px; } }
+      .fbar1 { animation: barPulse1 1.6s ease-in-out infinite; }
+      .fbar2 { animation: barPulse2 1.3s ease-in-out infinite 0.2s; }
+      .fbar3 { animation: barPulse3 1.8s ease-in-out infinite 0.5s; }
+    </style>
+  </defs>
+
+  <rect width="400" height="100" rx="8" fill="url(#bgFinancial)" stroke="url(#neonGoldGreen)" stroke-width="1.2" stroke-opacity="0.9" />
+
+  <!-- Glass HUD Border Accent -->
+  <path d="M 0,0 L 20,0 L 0,20 Z" fill="#00FF9D" opacity="0.85" />
+  <path d="M 400,100 L 380,100 L 400,80 Z" fill="#FFD700" opacity="0.85" />
+
+  <!-- Animated Financial Pulse / Bars -->
+  <g transform="translate(28, 20)" filter="url(#glowGold)">
+    <rect x="0" y="46" width="6" height="14" rx="2" fill="#00FF9D" class="fbar1" />
+    <rect x="10" y="34" width="6" height="26" rx="2" fill="#00F0FF" class="fbar2" />
+    <rect x="20" y="24" width="6" height="36" rx="2" fill="#FFD700" class="fbar3" />
+    <!-- Trend Line -->
+    <path d="M 3 48 L 13 36 L 23 26" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="2,2" opacity="0.8" />
+  </g>
+
+  <!-- Title & Subtitle -->
+  <text x="90" y="44" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="1">ETL FINANCIAL ADVISOR</text>
+  <text x="90" y="64" font-family="'JetBrains Mono', monospace" font-size="10" fill="#00FF9D" letter-spacing="0.5">DATA PIPELINE // ENRICHMENT // INSIGHTS</text>
+</svg>

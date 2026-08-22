@@ -1,29 +1,38 @@
 <p align="center">
-  <img src="./assets/cyberpunk-hud-top.svg?v=8" alt="Cyberpunk top HUD" width="100%" />
+  <img src="./assets/cyberpunk-hud-top.svg?v=9" alt="Cyberpunk top HUD" width="100%" />
 </p>
 
 # Luciano Arruda
 
 <p align="left">
-	<img src="https://komarev.com/ghpvc/?username=lucenfort&style=for-the-badge&color=00F0FF&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=lucenfort&style=for-the-badge&color=00F0FF&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
-**Dados & IA** | **Engenheiro de Computação**
+**Engenharia de IA & Ciência de Dados** • **Engenharia de Dados & Software**
 
-Este é meu espaço para documentar projetos em Dados, Inteligência Artificial e Arquitetura de Software. Aqui você vai encontrar desde pipelines de dados e modelos preditivos até soluções completas de Engenharia de Computação. O foco deste perfil é a prática, a experimentação e o compartilhamento de aprendizado contínuo.
+Engenheiro de Computação focado na concepção e implantação de modelos de Inteligência Artificial e soluções analíticas de Ciência de Dados, sustentados por pipelines de Engenharia de Dados resilientes e arquitetura de software escalável de alta performance.
 
-## [>] SYS.NAVEGAÇÃO
+---
 
-[Foco Atual](#-sysfoco_atual) • [Stack](#-stack_tecnológica) • [Status](#-status_sistema) • [Projetos](#-projetos_destaque) • [Contato](#-ping_contato)
+## <span id="navegacao"></span>[>] SYS.NAVEGAÇÃO
 
+[Foco Atual](#foco-atual) • [Stack](#stack-tecnologica) • [Status](#status-sistema) • [Projetos em Destaque](#projetos-destaque) • [Contato](#ping-contato)
 
-## [~] SYS.FOCO_ATUAL
+---
 
-- **Dados & Analytics:** Engenharia de Dados, ETL/ELT & Análise Preditiva.
-- **Inteligência Artificial:** Machine Learning, Deep Learning & Engenharia de IA.
-- **Engenharia de Computação:** Arquitetura de Software, MLOps & Sistemas Escaláveis.
+## <span id="foco-atual"></span>[~] SYS.FOCO_ATUAL
 
-## [@] STACK_TECNOLÓGICA
+- **Engenharia de IA:** Deep Learning, Processamento Digital de Sinais e Áudio (DSP), Visão Computacional, Modelos Preditivos e Arquiteturas GenAI / LLMs & RAG.
+- **Ciência de Dados:** Modelagem Estatística Avançada, Machine Learning Supervisionado/Não-Supervisionado, Análise Exploratória Multivariada e Extração de Padrões.
+- **Engenharia de Dados:** Pipelines de Ingestão e Processamento ETL/ELT, Modelagem Relacional & Dimensional, Inferência DDL Automatizada e Qualidade de Dados.
+<!--
+- **Engenharia de Software:** Arquitetura de Microsserviços e APIs (FastAPI), Conteinerização (Docker & Kubernetes), Testes Automatizados (Pytest/TDD) e Práticas de MLOps.
+- **Computação Científica & HPC:** Simulação de circuitos quânticos (Qiskit), modelagem numérica de alto desempenho e integração com IoT & Hardware.
+-->
+
+---
+
+## <span id="stack-tecnologica"></span>[@] STACK_TECNOLÓGICA
 
 **Engenharia de IA & GenAI / LLMs**
 <p align="left">
@@ -32,41 +41,50 @@ Este é meu espaço para documentar projetos em Dados, Inteligência Artificial 
   <img src="./assets/badge-pytorch.svg" alt="PyTorch" height="34" />
   <img src="./assets/badge-tensorflow.svg" alt="TensorFlow" height="34" />
   <img src="./assets/badge-opencv.svg" alt="OpenCV" height="34" />
+  <img src="./assets/badge-librosa.svg" alt="Librosa / DSP" height="34" />
 </p>
 
 **Ciência de Dados & Machine Learning**
 <p align="left">
   <img src="./assets/badge-python.svg" alt="Python" height="34" />
-  <img src="./assets/badge-sql.svg" alt="SQL" height="34" />
-  <img src="./assets/badge-pandas.svg" alt="Pandas" height="34" />
-  <img src="./assets/badge-numpy.svg" alt="NumPy" height="34" />
   <img src="./assets/badge-sklearn.svg" alt="Scikit-Learn" height="34" />
   <img src="./assets/badge-xgboost.svg" alt="XGBoost" height="34" />
+  <img src="./assets/badge-pandas.svg" alt="Pandas" height="34" />
+  <img src="./assets/badge-numpy.svg" alt="NumPy" height="34" />
+  <img src="./assets/badge-scipy.svg" alt="SciPy" height="34" />
+</p>
+
+**Engenharia de Dados & Modelagem**
+<p align="left">
+  <img src="./assets/badge-sql.svg" alt="SQL" height="34" />
+  <img src="./assets/badge-postgres.svg" alt="PostgreSQL" height="34" />
   <img src="./assets/badge-spark.svg" alt="Apache Spark" height="34" />
 </p>
 
-**DevOps, MLOps & Arquitetura de Software**
+**Engenharia de Software, MLOps & Infraestrutura**
 <p align="left">
   <img src="./assets/badge-fastapi.svg" alt="FastAPI" height="34" />
   <img src="./assets/badge-docker.svg" alt="Docker" height="34" />
   <img src="./assets/badge-kubernetes.svg" alt="Kubernetes" height="34" />
+  <img src="./assets/badge-streamlit.svg" alt="Streamlit" height="34" />
+  <img src="./assets/badge-pytest.svg" alt="Pytest" height="34" />
   <img src="./assets/badge-git.svg" alt="Git" height="34" />
   <img src="./assets/badge-cicd.svg" alt="CI/CD" height="34" />
   <img src="./assets/badge-mlops.svg" alt="MLOps" height="34" />
+</p>
+
+**Computação Científica, HPC e IoT & Hardware**
+<p align="left">
+  <img src="./assets/badge-qiskit.svg" alt="Qiskit" height="34" />
   <img src="./assets/badge-iot.svg" alt="IoT & Hardware" height="34" />
 </p>
 
-## [=] STATUS_SISTEMA
+---
 
-<!-- Cards do github-readme-stats comentados temporariamente devido a erro de rate limit da API
-<p align="center">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=lucenfort&show_icons=true&hide_border=true&title_color=00F0FF&icon_color=00F0FF&text_color=E6EDF3&bg_color=080D18&locale=pt-br&v=3" alt="GitHub stats" />
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lucenfort&layout=compact&hide_border=true&title_color=00F0FF&text_color=E6EDF3&bg_color=080D18&locale=pt-br&hide=html,jupyter%20notebook,lex,xbase&v=3" alt="Top languages" />
-</p>
--->
+## <span id="status-sistema"></span>[=] STATUS_SISTEMA
 
 <p align="center">
-    <img src="https://streak-stats.demolab.com?user=lucenfort&hide_border=true&background=080D18&ring=00F0FF&fire=FF007F&currStreakLabel=00F0FF&stroke=7000FF&sideNums=E6EDF3&currStreakNum=FFFFFF&dates=8F9BBA&sideLabels=8F9BBA&locale=pt-br&v=3" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=lucenfort&hide_border=true&background=080D18&ring=00F0FF&fire=FF007F&currStreakLabel=00F0FF&stroke=7000FF&sideNums=E6EDF3&currStreakNum=FFFFFF&dates=8F9BBA&sideLabels=8F9BBA&locale=pt-br&v=4" alt="GitHub streak" />
 </p>
 
 <p align="center">
@@ -77,108 +95,138 @@ Este é meu espaço para documentar projetos em Dados, Inteligência Artificial 
   </picture>
 </p>
 
-## [*] PROJETOS_DESTAQUE
+---
 
-<!--
-	Projetos Inativos/Comentados:
-	<td width="50%" valign="top">
-		<a href="https://github.com/lucenfort/ppe-detection">
-			<img src="./assets/project-ppe.svg?v=2" width="100%" alt="PPE Detection" />
-		</a>
-		<br>
-		<p>Pipeline robusto de detecção de Equipamentos de Proteção Individual (EPI) utilizando YOLO e RT-DETR.</p>
-		<details>
-			<summary>Detalhes técnicos</summary>
-			<ul>
-				<li><strong>Objetivo:</strong> Monitoramento automatizado em ambientes industriais.</li>
-				<li><strong>Abordagem:</strong> Arquitetura modular e validação multi-modelos.</li>
-				<li><strong>Stack principal:</strong> Python, YOLO, OpenCV.</li>
-			</ul>
-		</details>
-	</td>
--->
+## <span id="projetos-destaque"></span>[*] PROJETOS_DESTAQUE
 
 <table>
-	<tr>
-		<td width="50%" valign="top">
-            <a href="https://github.com/lucenfort/fan-audio-fault-detection">
-                <img src="./assets/project-audio.svg?v=5" width="100%" alt="Audio Fault Detection" />
-            </a>
-            <br>
-			<p>Detecção de falhas em ventiladores industriais a partir de processamento de sinais de áudio.</p>
-			<details>
-				<summary>Detalhes técnicos</summary>
-				<ul>
-					<li><strong>Objetivo:</strong> Identificar anomalias acústicas para manutenção preditiva.</li>
-					<li><strong>Abordagem:</strong> Extração de features de áudio (MFCCs) e Machine Learning.</li>
-					<li><strong>Stack principal:</strong> Python, Scikit-learn, Librosa.</li>
-				</ul>
-			</details>
-		</td>
-		<td width="50%" valign="top">
-            <a href="https://github.com/lucenfort/olistbr-brazilian-ecommerce">
-                <img src="./assets/project-ecommerce.svg?v=5" width="100%" alt="Ecommerce Analytics" />
-            </a>
-            <br>
-			<p>Análise de dados avançada de e-commerce com foco em insights estratégicos para o negócio.</p>
-			<details>
-				<summary>Detalhes técnicos</summary>
-				<ul>
-					<li><strong>Objetivo:</strong> Mapear padrões de receita e logística.</li>
-					<li><strong>Abordagem:</strong> ETL, limpeza de dados e modelagem de indicadores.</li>
-					<li><strong>Stack principal:</strong> Python, Pandas, SQL.</li>
-				</ul>
-			</details>
-		</td>
-	</tr>
-	<tr>
-		<td width="50%" valign="top">
-            <a href="https://github.com/lucenfort/eda-penguins-case">
-                <img src="./assets/project-penguins.svg?v=5" width="100%" alt="EDA Penguins Case" />
-            </a>
-            <br>
-			<p>Análise Exploratória de Dados (EDA) aprofundada sobre o dataset de pinguins de Palmer.</p>
-			<details>
-				<summary>Detalhes técnicos</summary>
-				<ul>
-					<li><strong>Objetivo:</strong> Extrair padrões e criar visualizações para classificar espécies.</li>
-					<li><strong>Abordagem:</strong> Limpeza de dados, análise multivariada e visualização estatística.</li>
-					<li><strong>Stack principal:</strong> Python, Pandas, Seaborn, Matplotlib.</li>
-				</ul>
-			</details>
-		</td>
-		<td width="50%" valign="top">
-            <a href="https://github.com/lucenfort/quantum-teleportation">
-                <img src="./assets/project-quantum.svg?v=5" width="100%" alt="Quantum Teleportation" />
-            </a>
-            <br>
-			<p>Implementação prática do protocolo de Teletransporte Quântico usando Qiskit.</p>
-			<details>
-				<summary>Detalhes técnicos</summary>
-				<ul>
-					<li><strong>Objetivo:</strong> Demonstrar a transferência de estados quânticos entre qubits.</li>
-					<li><strong>Abordagem:</strong> Uso de emaranhamento (par de Bell) e portas lógicas quânticas.</li>
-					<li><strong>Stack principal:</strong> Python, Qiskit.</li>
-				</ul>
-			</details>
-		</td>
-	</tr>
+  <!-- LINHA 1: IA & DSP + CIÊNCIA DE DADOS -->
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lucenfort/fan-audio-fault-detection">
+        <img src="./assets/project-audio.svg?v=6" width="100%" alt="Audio Fault Detection" />
+      </a>
+      <br>
+      <p><strong>Detecção de Falhas em Ventiladores Industriais por Áudio</strong></p>
+      <p>Classificação de anomalias mecânicas através de processamento digital de sinais acústicos e Machine Learning.</p>
+      <details>
+        <summary>Detalhes técnicos</summary>
+        <ul>
+          <li><strong>Engenharia de IA:</strong> Extração de coeficientes mel-espectrais (MFCCs) e centroides com <code>Librosa</code>.</li>
+          <li><strong>Modelagem:</strong> Algoritmos de classificação supervisionada para manutenção preditiva em tempo real.</li>
+          <li><strong>Stack:</strong> Python, Librosa, Scikit-Learn, NumPy, Matplotlib.</li>
+        </ul>
+      </details>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lucenfort/eda-penguins-case">
+        <img src="./assets/project-penguins.svg?v=6" width="100%" alt="Palmer Penguins EDA" />
+      </a>
+      <br>
+      <p><strong>Análise Exploratória & Benchmark de Machine Learning: Palmer Penguins</strong></p>
+      <p>Auditoria estatística multivariada, particionamento colunar Parquet e benchmark de 8 modelos de classificação supervisionada.</p>
+      <details>
+        <summary>Detalhes técnicos</summary>
+        <ul>
+          <li><strong>Ciência de Dados & ML:</strong> Análise descritiva/inferencial e esteira de benchmark com 8 algoritmos de ML.</li>
+          <li><strong>Engenharia de Dados:</strong> Pipeline de limpeza seletiva e serialização otimizada em formato colunar <code>.parquet</code>.</li>
+          <li><strong>Stack:</strong> Python, Pandas, Scikit-Learn, Seaborn, Matplotlib, SciPy.</li>
+        </ul>
+      </details>
+    </td>
+  </tr>
+
+  <!-- LINHA 2: ENGENHARIA DE DADOS + IA/ML APLICADA -->
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lucenfort/lh_nautical">
+        <img src="./assets/project-nautical.svg?v=1" width="100%" alt="LH Nautical Platform" />
+      </a>
+      <br>
+      <p><strong>Plataforma Integrada de Dados & Inteligência Preditiva (LH Nautical)</strong></p>
+      <p>Solução end-to-end com modelagem relacional de 24 tabelas do ERP, previsão de demanda, RecSys e Dashboard.</p>
+      <details>
+        <summary>Detalhes técnicos</summary>
+        <ul>
+          <li><strong>Engenharia de Dados:</strong> Inferência de DDL PostgreSQL em Python puro e ingestão de 433k+ registros.</li>
+          <li><strong>IA & Analytics:</strong> Modelagem de Séries Temporais (Demanda) e Sistema de Recomendação (Similaridade por Cossenos).</li>
+          <li><strong>Engenharia de Software:</strong> Dashboard interativo em Streamlit e cobertura de testes automatizados com Pytest.</li>
+          <li><strong>Stack:</strong> Python, PostgreSQL, SQL, Streamlit, Pytest, Pandas.</li>
+        </ul>
+      </details>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lucenfort/etl-financial-advisor">
+        <img src="./assets/project-financial.svg?v=1" width="100%" alt="ETL Financial Advisor" />
+      </a>
+      <br>
+      <p><strong>Pipeline ETL: Orientador Financeiro Automatizado</strong></p>
+      <p>Pipeline completo de extração, categorização inteligente por texto, enriquecimento e geração de insights de investimento.</p>
+      <details>
+        <summary>Detalhes técnicos</summary>
+        <ul>
+          <li><strong>Engenharia de Dados:</strong> Pipeline ETL modular multi-origem (CSV, Excel Kaggle e fallback dinâmico).</li>
+          <li><strong>Regras Analíticas:</strong> Identificação de maiores custos e simulação preditiva de rendimento sobre a taxa Selic.</li>
+          <li><strong>Engenharia de Software:</strong> Código modular com tratamento robusto de erros e logs estruturados.</li>
+          <li><strong>Stack:</strong> Python, Pandas, OpenPyXL, JSON.</li>
+        </ul>
+      </details>
+    </td>
+  </tr>
+
+  <!-- LINHA 3: COMPUTAÇÃO AVANÇADA & E-COMMERCE ANALYTICS -->
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lucenfort/quantum-teleportation">
+        <img src="./assets/project-quantum.svg?v=6" width="100%" alt="Quantum Teleportation" />
+      </a>
+      <br>
+      <p><strong>Protocolo de Teletransporte Quântico (Qiskit)</strong></p>
+      <p>Implementação prática de circuitos quânticos com emaranhamento (pares de Bell) e portas lógicas no simulador Aer.</p>
+      <details>
+        <summary>Detalhes técnicos</summary>
+        <ul>
+          <li><strong>Computação Quântica:</strong> Criação de canais de emaranhamento e reconstrução de estados quânticos arbitrados.</li>
+          <li><strong>Validação:</strong> Análise de tomografia de estado e matrizes de densidade no Qiskit Aer.</li>
+          <li><strong>Stack:</strong> Python, Qiskit, IBM Quantum Tools.</li>
+        </ul>
+      </details>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lucenfort/olistbr-brazilian-ecommerce">
+        <img src="./assets/project-ecommerce.svg?v=6" width="100%" alt="Ecommerce Analytics" />
+      </a>
+      <br>
+      <p><strong>Plataforma de Engenharia de Dados & Machine Learning (Olist)</strong></p>
+      <p>Ingestão de alta performance com DuckDB e Polars, segmentação RFM e previsão de atrasos logísticos com XGBoost otimizado via Optuna.</p>
+      <details>
+        <summary>Detalhes técnicos</summary>
+        <ul>
+          <li><strong>Engenharia de Dados Colunar:</strong> Pipeline vetorizado com <code>DuckDB</code> e <code>Polars</code> sobre 100k+ pedidos.</li>
+          <li><strong>Machine Learning & Otimização:</strong> Modelos preditivos com <code>XGBoost</code>, <code>LightGBM</code> e ajuste de hiperparâmetros com <code>Optuna</code>.</li>
+          <li><strong>Stack:</strong> Python, Polars, DuckDB, XGBoost, LightGBM, Optuna, Scikit-Learn.</li>
+        </ul>
+      </details>
+    </td>
+  </tr>
 </table>
 
-## [&] PING_CONTATO
+---
+
+## <span id="ping-contato"></span>[&] PING_CONTATO
 
 <p align="left">
-	<a href="mailto:lucenfort@gmail.com">
-		<img src="https://img.shields.io/badge/Email-lucen4t%40gmail.com-FFD700?style=for-the-badge&logo=gmail&logoColor=0B0B0B&labelColor=0B0B0B" alt="Email" />
-	</a>
-	<a href="https://linkedin.com/in/lucenfort">
-		<img src="https://img.shields.io/badge/LinkedIn-lucenfort-00FFF7?style=for-the-badge&logo=linkedin&logoColor=0B0B0B&labelColor=0B0B0B" alt="LinkedIn" />
-	</a>
-	<a href="https://github.com/lucenfort">
-		<img src="https://img.shields.io/badge/GitHub-lucenfort-FF00FF?style=for-the-badge&logo=github&logoColor=0B0B0B&labelColor=0B0B0B" alt="GitHub" />
-	</a>
+  <a href="mailto:lucenfort@gmail.com">
+    <img src="https://img.shields.io/badge/Email-lucenfort%40gmail.com-FFD700?style=for-the-badge&logo=gmail&logoColor=0B0B0B&labelColor=0B0B0B" alt="Email" />
+  </a>
+  <a href="https://linkedin.com/in/lucenfort">
+    <img src="https://img.shields.io/badge/LinkedIn-lucenfort-00FFF7?style=for-the-badge&logo=linkedin&logoColor=0B0B0B&labelColor=0B0B0B" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/lucenfort">
+    <img src="https://img.shields.io/badge/GitHub-lucenfort-FF00FF?style=for-the-badge&logo=github&logoColor=0B0B0B&labelColor=0B0B0B" alt="GitHub" />
+  </a>
 </p>
 
 <div align="center">
-  <img src="./assets/cyberpunk-hud-bottom.svg?v=5" alt="Cyberpunk bottom HUD" width="100%" />
+  <img src="./assets/cyberpunk-hud-bottom.svg?v=6" alt="Cyberpunk bottom HUD" width="100%" />
 </div>
